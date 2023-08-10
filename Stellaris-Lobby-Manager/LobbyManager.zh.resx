@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing"">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="otherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="otherToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="canOverflowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="canOverflowToolStripMenuItem.Text" xml:space="preserve">
+    <value>允许溢出</value>
+  </data>
+  <data name="fullPrecisionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="fullPrecisionToolStripMenuItem.Text" xml:space="preserve">
+    <value>最大精度</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="offsetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="offsetToolStripMenuItem.Text" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="settingsColLeft.RowCount" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="galaxySizeDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="galaxySizeDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="galaxySizeDesc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="galaxySizeDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 39</value>
+  </data>
+  <data name="galaxySizeDesc.Text" xml:space="preserve">
+    <value>星系尺寸</value>
+  </data>
+  <data name="galaxyShapeDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="galaxyShapeDesc.Text" xml:space="preserve">
+    <value>星系形状</value>
+  </data>
+  <data name="habitableWorldsDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="habitableWorldsDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="habitableWorldsDesc.Text" xml:space="preserve">
+    <value>宜居星球</value>
+  </data>
+  <data name="guaranteedHabitableDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="guaranteedHabitableDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="guaranteedHabitableDesc.Text" xml:space="preserve">
+    <value>确保宜居星球</value>
+  </data>
+  <data name="empirePlacementMPDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="empirePlacementMPDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="empirePlacementMPDesc.Text" xml:space="preserve">
+    <value>开局位置（多人）</value>
+  </data>
+  <data name="preFTLDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="preFTLDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="preFTLDesc.Text" xml:space="preserve">
+    <value>前超光速文明和未开智物种</value>
+  </data>
+  <data name="hyperlaneDensityDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hyperlaneDensityDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="hyperlaneDensityDesc.Text" xml:space="preserve">
+    <value>超空间航路密度</value>
+  </data>
+  <data name="abandonedGatewaysDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="abandonedGatewaysDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="abandonedGatewaysDesc.Text" xml:space="preserve">
+    <value>废弃星门</value>
+  </data>
+  <data name="wormholePairsDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wormholePairsDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="wormholePairsDesc.Text" xml:space="preserve">
+    <value>虫洞对的数量</value>
+  </data>
+  <data name="techCostDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="techCostDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="techCostDesc.Text" xml:space="preserve">
+    <value>科技及传统花费</value>
+  </data>
+  <data name="logisticGrowthCeilingDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="logisticGrowthCeilingDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="logisticGrowthCeilingDesc.Text" xml:space="preserve">
+    <value>S型增长上限</value>
+  </data>
+  <data name="growthRequiredScalingDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="growthRequiredScalingDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="growthRequiredScalingDesc.Text" xml:space="preserve">
+    <value>增长需求倍率</value>
+  </data>
+  <data name="caravaneersDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="caravaneersDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="caravaneersDesc.Text" xml:space="preserve">
+    <value>行商</value>
+  </data>
+  <data name="lGatesDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lGatesDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lGatesDesc.Text" xml:space="preserve">
+    <value>L-星门</value>
+  </data>
+  <data name="xenoCompatibilityDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xenoCompatibilityDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="xenoCompatibilityDesc.Text" xml:space="preserve">
+    <value>物种杂交</value>
+  </data>
+  <data name="galaxyShapeGame.Items" xml:space="preserve">
+    <value>椭圆型</value>
+  </data>
+  <data name="galaxyShapeGame.Items1" xml:space="preserve">
+    <value>旋涡型（双旋臂）</value>
+  </data>
+  <data name="galaxyShapeGame.Items2" xml:space="preserve">
+    <value>旋涡型（三旋臂）</value>
+  </data>
+  <data name="galaxyShapeGame.Items3" xml:space="preserve">
+    <value>旋涡型（四旋臂）</value>
+  </data>
+  <data name="galaxyShapeGame.Items4" xml:space="preserve">
+    <value>旋涡型（六旋臂）</value>
+  </data>
+  <data name="galaxyShapeGame.Items5" xml:space="preserve">
+    <value>圆环型</value>
+  </data>
+  <data name="galaxyShapeGame.Items6" xml:space="preserve">
+    <value>棒旋型</value>
+  </data>
+  <data name="galaxyShapeGame.Items7" xml:space="preserve">
+    <value>星暴型</value>
+  </data>
+  <data name="galaxyShapeGame.Items8" xml:space="preserve">
+    <value>车轮型</value>
+  </data>
+  <data name="galaxyShapeGame.Items9" xml:space="preserve">
+    <value>辐条型</value>
+  </data>
+  <data name="galaxySizeGame.Items" xml:space="preserve">
+    <value>袖珍（200 恒星）</value>
+  </data>
+  <data name="galaxySizeGame.Items1" xml:space="preserve">
+    <value>小型（400 恒星）</value>
+  </data>
+  <data name="galaxySizeGame.Items2" xml:space="preserve">
+    <value>中型（600 恒星）</value>
+  </data>
+  <data name="galaxySizeGame.Items3" xml:space="preserve">
+    <value>大型（800 恒星）</value>
+  </data>
+  <data name="galaxySizeGame.Items4" xml:space="preserve">
+    <value>巨型（1000 恒星）</value>
+  </data>
+  <data name="galaxyShapeSet.Items" xml:space="preserve">
+    <value>椭圆型</value>
+  </data>
+  <data name="galaxyShapeSet.Items1" xml:space="preserve">
+    <value>旋涡型（双旋臂）</value>
+  </data>
+  <data name="galaxyShapeSet.Items2" xml:space="preserve">
+    <value>旋涡型（三旋臂）</value>
+  </data>
+  <data name="galaxyShapeSet.Items3" xml:space="preserve">
+    <value>旋涡型（四旋臂）</value>
+  </data>
+  <data name="galaxyShapeSet.Items4" xml:space="preserve">
+    <value>旋涡型（六旋臂）</value>
+  </data>
+  <data name="galaxyShapeSet.Items5" xml:space="preserve">
+    <value>圆环型</value>
+  </data>
+  <data name="galaxyShapeSet.Items6" xml:space="preserve">
+    <value>棒旋型</value>
+  </data>
+  <data name="galaxyShapeSet.Items7" xml:space="preserve">
+    <value>星暴型</value>
+  </data>
+  <data name="galaxyShapeSet.Items8" xml:space="preserve">
+    <value>车轮型</value>
+  </data>
+  <data name="galaxyShapeSet.Items9" xml:space="preserve">
+    <value>辐条型</value>
+  </data>
+  <data name="galaxySizeSet.Items" xml:space="preserve">
+    <value>袖珍（200 恒星）</value>
+  </data>
+  <data name="galaxySizeSet.Items1" xml:space="preserve">
+    <value>小型（400 恒星）</value>
+  </data>
+  <data name="galaxySizeSet.Items2" xml:space="preserve">
+    <value>中型（600 恒星）</value>
+  </data>
+  <data name="galaxySizeSet.Items3" xml:space="preserve">
+    <value>大型（800 恒星）</value>
+  </data>
+  <data name="galaxySizeSet.Items4" xml:space="preserve">
+    <value>巨型（1000 恒星）</value>
+  </data>
+  <data name="empirePlacementSPGame.Items" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="empirePlacementSPGame.Items1" xml:space="preserve">
+    <value>扎堆分布</value>
+  </data>
+  <data name="empirePlacementSPDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="empirePlacementSPDesc.Text" xml:space="preserve">
+    <value>开局位置（单人）</value>
+  </data>
+  <data name="empirePlacementSPSet.Items" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="empirePlacementSPSet.Items1" xml:space="preserve">
+    <value>扎堆分布</value>
+  </data>
+  <data name="empirePlacementMPGame.Items" xml:space="preserve">
+    <value>扎堆分布</value>
+  </data>
+  <data name="empirePlacementMPGame.Items1" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="empirePlacementMPGame.Items2" xml:space="preserve">
+    <value>玩家均匀分布</value>
+  </data>
+  <data name="empirePlacementMPGame.Items3" xml:space="preserve">
+    <value>玩家扎堆分布</value>
+  </data>
+  <data name="empirePlacementMPSet.Items" xml:space="preserve">
+    <value>扎堆分布</value>
+  </data>
+  <data name="empirePlacementMPSet.Items1" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="empirePlacementMPSet.Items2" xml:space="preserve">
+    <value>玩家均匀分布</value>
+  </data>
+  <data name="empirePlacementMPSet.Items3" xml:space="preserve">
+    <value>玩家扎堆分布</value>
+  </data>
+  <data name="currentLabel.Text" xml:space="preserve">
+    <value>当前：</value>
+  </data>
+  <data name="libraryLabel.Text" xml:space="preserve">
+    <value>预设列表：</value>
+  </data>
+  <data name="recordButton.Text" xml:space="preserve">
+    <value>       记录  &gt;&gt;</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="exportButton.Text" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="applyButton.Text" xml:space="preserve">
+    <value>&lt;&lt;  应用      </value>
+  </data>
+  <data name="settingsColRight.RowCount" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="endGameStartYearDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="endGameStartYearDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="endGameStartYearDesc.Text" xml:space="preserve">
+    <value>末期事件起始</value>
+  </data>
+  <data name="midGameStartYearDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="midGameStartYearDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="midGameStartYearDesc.Text" xml:space="preserve">
+    <value>中期事件起始</value>
+  </data>
+  <data name="AIAggressivenessDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AIAggressivenessDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AIAggressivenessDesc.Text" xml:space="preserve">
+    <value>电脑侵略性</value>
+  </data>
+  <data name="difficultyAdjustedAIDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="difficultyAdjustedAIDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="difficultyAdjustedAIDesc.Text" xml:space="preserve">
+    <value>难度调整电脑修正</value>
+  </data>
+  <data name="scalingDifficultyDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="scalingDifficultyDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="scalingDifficultyDesc.Text" xml:space="preserve">
+    <value>递增难度</value>
+  </data>
+  <data name="difficultyDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="difficultyDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="difficultyDesc.Text" xml:space="preserve">
+    <value>难度</value>
+  </data>
+  <data name="crisisTypeDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="crisisTypeDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="crisisTypeDesc.Text" xml:space="preserve">
+    <value>危机种类</value>
+  </data>
+  <data name="crisisStrengthDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="crisisStrengthDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="crisisStrengthDesc.Text" xml:space="preserve">
+    <value>危机强度</value>
+  </data>
+  <data name="marauderEmpiresDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="marauderEmpiresDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="marauderEmpiresDesc.Text" xml:space="preserve">
+    <value>掠夺者帝国</value>
+  </data>
+  <data name="fallenEmpiresDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fallenEmpiresDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fallenEmpiresDesc.Text" xml:space="preserve">
+    <value>失落帝国</value>
+  </data>
+  <data name="advancedNeighborsDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="advancedNeighborsDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="advancedNeighborsDesc.Text" xml:space="preserve">
+    <value>高级文明邻居</value>
+  </data>
+  <data name="advancedAIStartsDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="advancedAIStartsDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="advancedAIStartsDesc.Text" xml:space="preserve">
+    <value>高级电脑帝国</value>
+  </data>
+  <data name="AIEmpiresDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AIEmpiresDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AIEmpiresDesc.Text" xml:space="preserve">
+    <value>电脑帝国</value>
+  </data>
+  <data name="crisisTypeGame.Items" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="crisisTypeGame.Items1" xml:space="preserve">
+    <value>虫群天灾</value>
+  </data>
+  <data name="crisisTypeGame.Items2" xml:space="preserve">
+    <value>异次元入侵者</value>
+  </data>
+  <data name="crisisTypeGame.Items3" xml:space="preserve">
+    <value>肃正协议</value>
+  </data>
+  <data name="crisisTypeGame.Items4" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="difficultyGame.Items" xml:space="preserve">
+    <value>平民</value>
+  </data>
+  <data name="difficultyGame.Items1" xml:space="preserve">
+    <value>学员</value>
+  </data>
+  <data name="difficultyGame.Items2" xml:space="preserve">
+    <value>尉官</value>
+  </data>
+  <data name="difficultyGame.Items3" xml:space="preserve">
+    <value>校官</value>
+  </data>
+  <data name="difficultyGame.Items4" xml:space="preserve">
+    <value>准将</value>
+  </data>
+  <data name="difficultyGame.Items5" xml:space="preserve">
+    <value>上将</value>
+  </data>
+  <data name="difficultyGame.Items6" xml:space="preserve">
+    <value>大将</value>
+  </data>
+  <data name="AIAggressivenessGame.Items" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="AIAggressivenessGame.Items1" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="AIAggressivenessGame.Items2" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="AIAggressivenessSet.Items" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="AIAggressivenessSet.Items1" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="AIAggressivenessSet.Items2" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="scalingDifficultyGame.Items" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="scalingDifficultyGame.Items1" xml:space="preserve">
+    <value>游戏中期</value>
+  </data>
+  <data name="scalingDifficultyGame.Items2" xml:space="preserve">
+    <value>游戏末期</value>
+  </data>
+  <data name="victoryYearDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="victoryYearDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="victoryYearDesc.Text" xml:space="preserve">
+    <value>胜利年份</value>
+  </data>
+  <data name="ironmanModeDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ironmanModeDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ironmanModeDesc.Text" xml:space="preserve">
+    <value>铁人模式</value>
+  </data>
+  <data name="crisisTypeSet.Items" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="crisisTypeSet.Items1" xml:space="preserve">
+    <value>虫群天灾</value>
+  </data>
+  <data name="crisisTypeSet.Items2" xml:space="preserve">
+    <value>异次元入侵者</value>
+  </data>
+  <data name="crisisTypeSet.Items3" xml:space="preserve">
+    <value>肃正协议</value>
+  </data>
+  <data name="crisisTypeSet.Items4" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="difficultySet.Items" xml:space="preserve">
+    <value>平民</value>
+  </data>
+  <data name="difficultySet.Items1" xml:space="preserve">
+    <value>学员</value>
+  </data>
+  <data name="difficultySet.Items2" xml:space="preserve">
+    <value>尉官</value>
+  </data>
+  <data name="difficultySet.Items3" xml:space="preserve">
+    <value>校官</value>
+  </data>
+  <data name="difficultySet.Items4" xml:space="preserve">
+    <value>准将</value>
+  </data>
+  <data name="difficultySet.Items5" xml:space="preserve">
+    <value>上将</value>
+  </data>
+  <data name="difficultySet.Items6" xml:space="preserve">
+    <value>大将</value>
+  </data>
+  <data name="scalingDifficultySet.Items" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="scalingDifficultySet.Items1" xml:space="preserve">
+    <value>游戏中期</value>
+  </data>
+  <data name="scalingDifficultySet.Items2" xml:space="preserve">
+    <value>游戏末期</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGRkAAAEAIABQCgAAFgAAACgAAAAZAAAAMgAAAAEAIAAAAAAAxAkAAAAAAAAAAAAAAAAAAAAA
+        AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wASEhIAEhISAh4g
+        GQggIxsMGRsWCiovIQEXGBUFEhISAhISEgASEhIAEhISABISEgASEhIA////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////ABISEgASEhIAFRUUbhkaFsEbHRjjGx0Y6hkbF+kZGhbmFxgV3xUW
+        FNYVFRS7FxgVahYXFSISEhIAEhISABISEgASEhIA////AP///wD///8A////AP///wD///8A////AP//
+        /wASEhIAHB4YFSQnHcpcZD37lpla/764av+urGL/lppY/3mASv5dZjz5Qkou8S0yI+wbHRjgFhcVsBgZ
+        FhAnKx8AJysfACcrHwD///8A////AP///wD///8A////AP///wD///8AHiAZAhcYFah/g0/0++GI/+rV
+        ff+op2D/j5NU/5CUVP+cnVn/qKhf/6qpX/+Zm1j/d35J/kRLL/cfIBnRFBUTUBISEgMPEQsAJysfACcr
+        HwD///8A////AP///wD///8A////ACAjGwcYGRa7qqVj+//lif+cnlv/Ki8h/y80JP9JSzD/U1Q1/1dZ
+        N/9hZTz/WWA5/3+ETf+Sk1T/a3BC/j5BK+MoKR+FJSgeCQ8RCwAnKx8A////ACovIQH///8A////AP//
+        /wAqLyEDHyEal15kPvf44IX/7dh+/2BpPf9DTC//4tB3///ig//n1Xn/49F3/8C5af+Qj1L/e29D/zk1
+        If8jIhn/KSsf6CYoHmMjJx0eJysfAg8RCwASEhIAKi8hAf///wD///8A////ACUpHhgkKB3HeH5L/fHb
+        gv/74YX/jpNV/293Rv/Aumv/dHtH/1hhOv+Bh03/r61i/8i6bP+ai1T/Zlw6/yYkGf8jJRzvICMbexoc
+        FwkPEQsAEhISABISEgAqLyEB////AP///wASEhIAJCgdNyEkHNdVXDr7ysJ3///ljv/IwHT/gIdQ/zc+
+        Kf9VXjj/j5NV/2lyQv9haz//h4xR/82/cP/Asm3/amZA/y4uIPscHxfFHB4YKg8RCwAPEQsAKi8hAf//
+        /wD///8A////ACovIQEiJRwgISQcpzU7KOyEiFb95NWI///mk/+MkFj/mZta///jhf/94or/4tma/4OJ
+        U/8+Ri3/j5Nb/9bKfP/VyHr/b3FJ/B0dF+8YGhZqEhISBhISEgASEhIA////AP///wAqLyEDKi8hDSEk
+        GiUhIxqCHB0W6iYmGvx+gFP/r6tt/3N3Sv/m1IP/+umo//fz2v+oqn3/Ki8h/5aZX/+Tllr/oaJi//bh
+        kP+xr23/MjYl5hgZFYoTExMTEhISB////wD///8A////ACovIQAkKBsrIiMZnTg1Jro0MiP3JSQa/0A/
+        Kv9ARi//YGRE/6GfcP+VlGv/W11B/3d7VP/i1pX/+uWf/4uMWv92eU7/9+OP/8C5cP8/RC3oGBkWjxIS
+        EhH///8A////AP///wD///8AKi8hARgbEhgeHha7IiIXy0Q/LvpOSDL/VlI5/25tSf9hYkP/aWtK/6up
+        fP/h2aT/8urF//nvwf+4tYT/LDAi/5KVX//s1of/m5hg/R0eGd8UFBMO////AP///wD///8A////AP//
+        /wD///8AJyseCCMlG0keHRbLHRsU5ENBLvpnYkP+hX5V/6qgb/+8tX7/paRy/46OZP9xclL/Q0Ux/z9B
+        MP+eoHD/+uOW/6WaZ/8dHRnvGBkWDP///wD///8A////AP///wD///8A////AP///wAqLyEAKCwgFiAh
+        GGccHBTIHR4W4Dw7KfZ2b0r+jYFX/6ugbf/Duo//39ey/+Pasv/j2Kv/5NWg/93MiP9jYUP6GBgVyRgZ
+        FgT///8A////AP///wD///8A////AP///wD///8A////AP///wAqLyEAKS4gEiIkGkQaGhOZGxoT5yso
+        HPhKRS39XFc5/mRfP/9jXkL/W1dA/0pJNP8cGhP9HBoU3BkaFFkTFQ4A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wAqLyECIiUcBhYYEBsYGhJTHB4ViRwdFdAcHBTfHB0U4xsc
+        E+UbHBTkHyIXpjg9Khk8Qi8DExUOAP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////ACovIQEqLyEBKi8hASovIQMqLyEDKi8hBCovIQclKR0MIiYbCx4hFwYeIRcGHiEXAP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wAqLyEB////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wAqLyEBKi8hAyovIQH///8A////AP//
+        /wD///8A////AP///wD///8AKi8hAyovIQP///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////ACovIQn///8A////AP///wD///8A////gP///4D///+A////gOA/
+        /4DAB/+AgAH/gAAAf4AAADuAAAANgIAADoDAAAaAwAABgMAAAADwAAAA8AAAAPwAAAD/AAAA/8AAgP/g
+        AID/8AGA////AP///4D//+OA8//3gA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>群☆星 大厅预设管理器</value>
+  </data>
+</root>

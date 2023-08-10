@@ -1,0 +1,95 @@
+{
+  "galaxySize": {
+    "value": "medium"
+  },
+  "galaxyShape": {
+    "value": "elliptical"
+  },
+  "habitableWorlds": {
+    "value": 100000
+  },
+  "guaranteedHabitable": {
+    "value": 2
+  },
+  "empirePlacementSP": {
+    "value": 0
+  },
+  "empirePlacementMP": {
+    "value": 0
+  },
+  "preFTL": {
+    "value": 100000
+  },
+  "hyperlaneDensity": {
+    "value": 100000
+  },
+  "abandonedGateways": {
+    "value": 100000
+  },
+  "wormholePairs": {
+    "value": 100000
+  },
+  "techCost": {
+    "value": 100000
+  },
+  "logisticGrowthCeiling": {
+    "value": 150000
+  },
+  "growthRequiredScaling": {
+    "value": 25000
+  },
+  "caravaneers": {
+    "value": true
+  },
+  "lGates": {
+    "value": true
+  },
+  "xenoCompatibility": {
+    "value": true
+  },
+  "AIEmpires": {
+    "value": 9
+  },
+  "advancedAIStarts": {
+    "value": 2
+  },
+  "advancedNeighbors": {
+    "value": true
+  },
+  "fallenEmpires": {
+    "value": 2
+  },
+  "marauderEmpires": {
+    "value": 2
+  },
+  "crisisStrength": {
+    "value": 100000
+  },
+  "crisisType": {
+    "value": 0
+  },
+  "difficulty": {
+    "value": 1
+  },
+  "scalingDifficulty": {
+    "value": 0
+  },
+  "difficultyAdjustedAI": {
+    "value": true
+  },
+  "AIAggressiveness": {
+    "value": 0
+  },
+  "midGameStartYear": {
+    "value": 2300
+  },
+  "endGameStartYear": {
+    "value": 2400
+  },
+  "victoryYear": {
+    "value": 2500
+  },
+  "ironmanMode": {
+    "value": false
+  }
+}
