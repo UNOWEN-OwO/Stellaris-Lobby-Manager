@@ -146,10 +146,11 @@ namespace Stellaris_Lobby_Manager
             libraryLabel = new Label();
             recordButton = new Button();
             saveButton = new Button();
-            exportButton = new Button();
             lobbyLibrary = new ListBox();
             applyButton = new Button();
             deleteButton = new Button();
+            exportButton = new Button();
+            importButton = new Button();
             settingsColRight = new TableLayoutPanel();
             marauderEmpiresRecord = new Button();
             fallenEmpiresApply = new Button();
@@ -371,11 +372,14 @@ namespace Stellaris_Lobby_Manager
             // 
             // tableLayoutPanel
             // 
+            tableLayoutPanel.AllowDrop = true;
             resources.ApplyResources(tableLayoutPanel, "tableLayoutPanel");
             tableLayoutPanel.Controls.Add(settingsColLeft, 0, 0);
             tableLayoutPanel.Controls.Add(controlsPanel, 2, 0);
             tableLayoutPanel.Controls.Add(settingsColRight, 1, 0);
             tableLayoutPanel.Name = "tableLayoutPanel";
+            tableLayoutPanel.DragDrop += DragDropConfig;
+            tableLayoutPanel.DragEnter += DragDropEnter;
             // 
             // settingsColLeft
             // 
@@ -1228,10 +1232,11 @@ namespace Stellaris_Lobby_Manager
             controlsPanel.Controls.Add(libraryLabel, 0, 3);
             controlsPanel.Controls.Add(recordButton, 0, 6);
             controlsPanel.Controls.Add(saveButton, 0, 7);
-            controlsPanel.Controls.Add(exportButton, 0, 8);
             controlsPanel.Controls.Add(lobbyLibrary, 0, 4);
             controlsPanel.Controls.Add(applyButton, 0, 5);
-            controlsPanel.Controls.Add(deleteButton, 0, 9);
+            controlsPanel.Controls.Add(deleteButton, 0, 10);
+            controlsPanel.Controls.Add(exportButton, 0, 9);
+            controlsPanel.Controls.Add(importButton, 0, 8);
             controlsPanel.Name = "controlsPanel";
             // 
             // currentLabel
@@ -1264,13 +1269,6 @@ namespace Stellaris_Lobby_Manager
             saveButton.UseVisualStyleBackColor = true;
             saveButton.Click += SaveButton_Click;
             // 
-            // exportButton
-            // 
-            resources.ApplyResources(exportButton, "exportButton");
-            exportButton.Name = "exportButton";
-            exportButton.UseVisualStyleBackColor = true;
-            exportButton.Click += ExportButton_Click;
-            // 
             // lobbyLibrary
             // 
             resources.ApplyResources(lobbyLibrary, "lobbyLibrary");
@@ -1291,6 +1289,20 @@ namespace Stellaris_Lobby_Manager
             deleteButton.Name = "deleteButton";
             deleteButton.UseVisualStyleBackColor = true;
             deleteButton.Click += DeleteButton_Click;
+            // 
+            // exportButton
+            // 
+            resources.ApplyResources(exportButton, "exportButton");
+            exportButton.Name = "exportButton";
+            exportButton.UseVisualStyleBackColor = true;
+            exportButton.Click += ExportButton_Click;
+            // 
+            // importButton
+            // 
+            resources.ApplyResources(importButton, "importButton");
+            importButton.Name = "importButton";
+            importButton.UseVisualStyleBackColor = true;
+            importButton.Click += ImportButton_Click;
             // 
             // settingsColRight
             // 
@@ -2494,5 +2506,6 @@ namespace Stellaris_Lobby_Manager
         private CheckBox marauderEmpiresRandomGame;
         private TableLayoutPanel tableLayoutPanel8;
         private CheckBox marauderEmpiresRandomSet;
+        private Button importButton;
     }
 }

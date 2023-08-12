@@ -158,13 +158,13 @@
     <value>Settings</value>
   </data>
   <data name="offsetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>111, 22</value>
   </data>
   <data name="offsetToolStripMenuItem.Text" xml:space="preserve">
     <value>Offset</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>111, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>About</value>
@@ -3332,7 +3332,7 @@
     <value>1</value>
   </data>
   <data name="libraryLabel.Text" xml:space="preserve">
-    <value>Presets:</value>
+    <value>Saved Configs:</value>
   </data>
   <data name="libraryLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -3353,7 +3353,7 @@
     <value>None</value>
   </data>
   <data name="recordButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 596</value>
+    <value>55, 563</value>
   </data>
   <data name="recordButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 26</value>
@@ -3380,7 +3380,7 @@
     <value>None</value>
   </data>
   <data name="saveButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 629</value>
+    <value>55, 596</value>
   </data>
   <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 26</value>
@@ -3403,33 +3403,6 @@
   <data name="&gt;&gt;saveButton.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="exportButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="exportButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 662</value>
-  </data>
-  <data name="exportButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 26</value>
-  </data>
-  <data name="exportButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="exportButton.Text" xml:space="preserve">
-    <value>Export</value>
-  </data>
-  <data name="&gt;&gt;exportButton.Name" xml:space="preserve">
-    <value>exportButton</value>
-  </data>
-  <data name="&gt;&gt;exportButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;exportButton.Parent" xml:space="preserve">
-    <value>controlsPanel</value>
-  </data>
-  <data name="&gt;&gt;exportButton.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="lobbyLibrary.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -3440,7 +3413,7 @@
     <value>3, 93</value>
   </data>
   <data name="lobbyLibrary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 464</value>
+    <value>224, 431</value>
   </data>
   <data name="lobbyLibrary.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3455,7 +3428,7 @@
     <value>controlsPanel</value>
   </data>
   <data name="&gt;&gt;lobbyLibrary.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="applyButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3464,7 +3437,7 @@
     <value>NoControl</value>
   </data>
   <data name="applyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 563</value>
+    <value>55, 530</value>
   </data>
   <data name="applyButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 26</value>
@@ -3485,7 +3458,7 @@
     <value>controlsPanel</value>
   </data>
   <data name="&gt;&gt;applyButton.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="deleteButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3515,7 +3488,64 @@
     <value>controlsPanel</value>
   </data>
   <data name="&gt;&gt;deleteButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="exportButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="exportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 662</value>
+  </data>
+  <data name="exportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="exportButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="exportButton.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;exportButton.Name" xml:space="preserve">
+    <value>exportButton</value>
+  </data>
+  <data name="&gt;&gt;exportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportButton.Parent" xml:space="preserve">
+    <value>controlsPanel</value>
+  </data>
+  <data name="&gt;&gt;exportButton.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="importButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="importButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="importButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 629</value>
+  </data>
+  <data name="importButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="importButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="importButton.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="&gt;&gt;importButton.Name" xml:space="preserve">
+    <value>importButton</value>
+  </data>
+  <data name="&gt;&gt;importButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;importButton.Parent" xml:space="preserve">
+    <value>controlsPanel</value>
+  </data>
+  <data name="&gt;&gt;importButton.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="controlsPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -3524,7 +3554,7 @@
     <value>948, 6</value>
   </data>
   <data name="controlsPanel.RowCount" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="controlsPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>230, 725</value>
@@ -3545,7 +3575,7 @@
     <value>1</value>
   </data>
   <data name="controlsPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="currentLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="currentLobby" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="libraryLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="recordButton" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="saveButton" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="exportButton" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lobbyLibrary" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="applyButton" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="deleteButton" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0" /&gt;&lt;Rows Styles="Absolute,26,Absolute,28,Absolute,10,Absolute,26,Percent,100,Absolute,33,Absolute,33,Absolute,33,Absolute,33,Absolute,33" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="currentLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="currentLobby" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="libraryLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="recordButton" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="saveButton" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lobbyLibrary" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="applyButton" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="deleteButton" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="exportButton" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="importButton" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0" /&gt;&lt;Rows Styles="Absolute,26,Absolute,28,Absolute,10,Absolute,26,Percent,100,Absolute,33,Absolute,33,Absolute,33,Absolute,33,Absolute,33,Absolute,33" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="settingsColRight.ColumnCount" type="System.Int32, mscorlib">
     <value>6</value>

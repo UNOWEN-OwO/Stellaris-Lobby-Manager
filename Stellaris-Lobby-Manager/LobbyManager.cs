@@ -291,41 +291,50 @@ namespace Stellaris_Lobby_Manager
             }
         }
 
-        private void MapSettings(string fileName)
+        private bool MapSettings(string fileName)
         {
-            string json;
-            // read json
-            if (!File.Exists(fileName))
+            try
             {
-                var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Stellaris_Lobby_Manager.default.json");
-                using (var reader = new StreamReader(stream))
+                string json;
+                // read json
+                if (!File.Exists(fileName))
                 {
-                    json = reader.ReadToEnd();
-                }
-                currentLobby.Text = "default";
-            }
-            else
-            {
-                json = File.ReadAllText(fileName);
-            }
-
-            // deserialize json
-            var settings = JsonConvert.DeserializeObject<Dictionary<string, SettingItem>>(json);
-            // map to lobbySettings
-            foreach (var item in settings)
-            {
-                var _item = lobbySettings[item.Key];
-                _item.IsLocked = item.Value.IsLocked;
-                _item.IsSkipped = item.Value.IsSkipped;
-                if (_item is GalaxySettingItem)
-                {
-                    _item.Value = ((GalaxySettingItem)_item).Options[item.Value.Value.ToString()].Item1;
+                    var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Stellaris_Lobby_Manager.default.json");
+                    using (var reader = new StreamReader(stream))
+                    {
+                        json = reader.ReadToEnd();
+                    }
+                    currentLobby.Text = "default";
                 }
                 else
                 {
-                    _item.Value = item.Value.Value;
+                    json = File.ReadAllText(fileName);
                 }
-                SetControlButton(_item);
+
+                // deserialize json
+                var settings = JsonConvert.DeserializeObject<Dictionary<string, SettingItem>>(json);
+                // map to lobbySettings
+                foreach (var item in settings)
+                {
+                    var _item = lobbySettings[item.Key];
+                    _item.IsLocked = item.Value.IsLocked;
+                    _item.IsSkipped = item.Value.IsSkipped;
+                    if (_item is GalaxySettingItem)
+                    {
+                        _item.Value = ((GalaxySettingItem)_item).Options[item.Value.Value.ToString()].Item1;
+                    }
+                    else
+                    {
+                        _item.Value = item.Value.Value;
+                    }
+                    SetControlButton(_item);
+                }
+                return true;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
             }
         }
 
@@ -811,9 +820,11 @@ namespace Stellaris_Lobby_Manager
             if (lobbyLibrary.SelectedItem != null)
             {
                 Debug.WriteLine("Loaded config: " + lobbyLibrary.SelectedItem.ToString());
-                MapSettings(AppdataFile(lobbyLibrary.SelectedItem.ToString() + ".json"));
-                currentLobby.Text = lobbyLibrary.SelectedItem.ToString();
-                LobbyModifiedChanged(false);
+                if (MapSettings(AppdataFile(lobbyLibrary.SelectedItem.ToString() + ".json")))
+                {
+                    currentLobby.Text = lobbyLibrary.SelectedItem.ToString();
+                    LobbyModifiedChanged(false);
+                }
             }
         }
 
@@ -822,6 +833,52 @@ namespace Stellaris_Lobby_Manager
             // save to appdata
             SaveFile(AppdataFile(currentLobby.Text + ".json"));
 
+        }
+
+        private void LoadConfig(string filename)
+        {
+            string initFilename = Path.GetFileNameWithoutExtension(filename);
+            string currentFilename = initFilename;
+            int count = 0;
+
+            while (File.Exists(AppdataFile(currentFilename + ".json")))
+            {
+                count++;
+                currentFilename = $"{initFilename}_{count}";
+            }
+
+            if (MapSettings(AppdataFile(currentFilename + ".json")))
+            {
+                File.Copy(filename, AppdataFile(currentFilename + ".json"));
+                currentLobby.Text = currentFilename;
+                LoadLobbyList();
+                LobbyModifiedChanged(false);
+            }
+        }
+
+        private void DragDropEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Copy;
+        }
+
+        private void DragDropConfig(object sender, DragEventArgs e)
+        {
+            string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+            if (files.Length > 0)
+            {
+                LoadConfig(files[0]);
+            }
+        }
+
+        private void ImportButton_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "json files (*.json)|*.json";
+            openFileDialog.RestoreDirectory = true;
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                LoadConfig(openFileDialog.FileName);
+            }
         }
 
         private void ExportButton_Click(object sender, EventArgs e)

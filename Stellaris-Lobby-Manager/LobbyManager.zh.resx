@@ -451,6 +451,9 @@
   <data name="exportButton.Text" xml:space="preserve">
     <value>导出</value>
   </data>
+  <data name="importButton.Text" xml:space="preserve">
+    <value>导入</value>
+  </data>
   <data name="deleteButton.Text" xml:space="preserve">
     <value>删除</value>
   </data>
