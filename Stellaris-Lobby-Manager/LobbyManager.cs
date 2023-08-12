@@ -955,7 +955,7 @@ namespace Stellaris_Lobby_Manager
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Made by @UNOWEN-OwO\nhttps://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager\nVisit Site?", "About", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult dialogResult = MessageBox.Show("Stellaris Lobby Manager v1.0 Made by @UNOWEN-OwO\nhttps://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager\nVisit Github page?", "About", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (dialogResult == DialogResult.OK)
             {
                 Process.Start(new ProcessStartInfo("https://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager") { UseShellExecute = true });
