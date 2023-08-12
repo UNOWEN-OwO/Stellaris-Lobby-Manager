@@ -29,25 +29,13 @@ namespace Stellaris_Lobby_Manager
         private static Dictionary<string, SettingItem> lobbySettings = new Dictionary<string, SettingItem>();
         private static Dictionary<string, SettingItem> _lobbySettings = new Dictionary<string, SettingItem>();
 
-        // private static Dictionary<string, IntPtr> galaxySettings = new Dictionary<string, IntPtr>();
         private static Dictionary<string, string> galaxySizeDefault = new Dictionary<string, string>();
         private static Dictionary<string, string> galaxyShapeDefault = new Dictionary<string, string>();
-
-        // private static List<(string, IntPtr)> galaxySize = new List<(string, IntPtr)>();
-        // private static List<(string, IntPtr)> galaxyShape = new List<(string, IntPtr)>();
 
         // UNLOCK:"" LOCK:"" RETURN:""
         private static readonly List<string> controlSymbol = new List<string> { "", "", "" };
 
         private static byte[]? overflowRestore;
-
-        private static List<string> canRandomList = new List<string>
-        {
-            "AIEmpire",
-            "advancedEmpire",
-            "fallenEmpire",
-            "marauderEmpire",
-        };
 
         public lobbyManager()
         {
@@ -223,6 +211,11 @@ namespace Stellaris_Lobby_Manager
             _SetLanguage(language);
             Properties.Settings.Default.language = language;
             Properties.Settings.Default.Save();
+            ReloadApp();
+        }
+
+        private void ReloadApp()
+        {
             Controls.Clear();
             _InitializeComponent();
             GenerateDefaultGalaxySettings();
@@ -633,6 +626,14 @@ namespace Stellaris_Lobby_Manager
             string name = ((Button)sender).Name;
             SettingItem item = _lobbySettings[name];
             CopyControlValue(GetControl(item.Name + "Game"), GetControl(item.Name + "Set"));
+
+            if (item is NumericRandomSettingItem)
+            {
+                CopyControlValue(GetControl(item.Name + "RandomGame"), GetControl(item.Name + "RandomSet"));
+                var randomItem = lobbySettings[item.Name + "Random"];
+                randomItem.ValueGame = randomItem.ValueSet;
+            }
+
             item.ValueSet = item.ValueGame;
             LobbyModifiedChanged(false);
         }
@@ -657,6 +658,14 @@ namespace Stellaris_Lobby_Manager
 
             // if (item.IsSkipped) return; // Theroetically, this should not happen as the button should be disabled.
             CopyControlValue(GetControl(item.Name + "Set"), GetControl(item.Name + "Game"));
+
+            if (item is NumericRandomSettingItem)
+            {
+                CopyControlValue(GetControl(item.Name + "RandomSet"), GetControl(item.Name + "RandomGame"));
+                var randomItem = lobbySettings[item.Name + "Random"];
+                randomItem.ValueSet = randomItem.ValueGame;
+            }
+
             item.ValueSet = item.ValueGame;
         }
 
@@ -679,6 +688,9 @@ namespace Stellaris_Lobby_Manager
             /// Use to restore SetControl value & ControlButton status
             /// </summary>
             SetControlValue(item, false, item.Value);
+
+            if (Controls.Find(item.Name + "Control", true).Length == 0) return;
+
             if (item.IsLocked)
             {
                 SetControlValue(item, true, item.Value);
@@ -691,6 +703,36 @@ namespace Stellaris_Lobby_Manager
             else
             {
                 SwitchControlButton((Button)GetControl(item.Name + "Control"), 0);
+            }
+        }
+
+        private void SwitchControlNumericRandom(string name, int tag)
+        {
+            var item = lobbySettings[name];
+            var gameControl = (Control)GetControl($"{name}Game");
+            var setControl = (Control)GetControl($"{name}Set");
+
+            if (tag == 1)
+            {
+                item.IsLocked = true;
+                item.IsSkipped = false;
+                gameControl.Enabled = false;
+                setControl.Enabled = true;
+                CopyControlValue(setControl, gameControl);
+            }
+            else if (tag == 2)
+            {
+                item.IsLocked = false;
+                item.IsSkipped = true;
+                gameControl.Enabled = true;
+                setControl.Enabled = false;
+                CopyControlValue(gameControl, setControl);
+            }
+            else
+            {
+                item.IsLocked = false;
+                item.IsSkipped = false;
+                gameControl.Enabled = setControl.Enabled = true;
             }
         }
 
@@ -724,6 +766,11 @@ namespace Stellaris_Lobby_Manager
             {
                 item.IsLocked = item.IsSkipped = false;
                 gameControl.Enabled = setControl.Enabled = applyButton.Enabled = recordButton.Enabled = true;
+            }
+
+            if (item is NumericRandomSettingItem)
+            {
+                SwitchControlNumericRandom(item.Name + "Random", tag);
             }
         }
 
@@ -848,6 +895,27 @@ namespace Stellaris_Lobby_Manager
                 }
                 lobbyModified = modified;
             }
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Made by @UNOWEN-OwO\nhttps://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager\nVisit Site?", "About", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (dialogResult == DialogResult.OK)
+            {
+                Process.Start(new ProcessStartInfo("https://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager") { UseShellExecute = true });
+            }
+        }
+
+        private void offsetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var offsetForm = new OffsetSetter();
+            offsetForm.Show();
+            offsetForm.FormClosed += OffsetForm_FormClosed;
+        }
+
+        private void OffsetForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ReloadApp();
         }
     }
 }

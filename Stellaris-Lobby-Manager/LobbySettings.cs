@@ -63,6 +63,10 @@ namespace Stellaris_Lobby_Manager
         public NumericSettingItem() { ValueType = typeof(uint); }
     }
 
+    public class NumericRandomSettingItem : NumericSettingItem
+    {
+    }
+
     public class SelectSettingItem : SettingItem
     {
         public SelectSettingItem() { ValueType = typeof(byte); }
@@ -194,16 +198,28 @@ namespace Stellaris_Lobby_Manager
                     Offset = 0xD1,
                 }
             },
-            {"AIEmpires", new NumericSettingItem
+            {"AIEmpires", new NumericRandomSettingItem
                 {
                     Name = "AIEmpires",
                     Offset = 0x50,
                 }
             },
-            {"advancedAIStarts", new NumericSettingItem
+            {"AIEmpiresRandom", new CheckSettingItem
+                {
+                    Name = "AIEmpiresRandom",
+                    Offset = 0x60,
+                }
+            },
+            {"advancedAIStarts", new NumericRandomSettingItem
                 {
                     Name = "advancedAIStarts",
                     Offset = 0x54,
+                }
+            },
+            {"advancedAIStartsRandom", new CheckSettingItem
+                {
+                    Name = "advancedAIStartsRandom",
+                    Offset = 0x61,
                 }
             },
             {"advancedNeighbors", new CheckSettingItem
@@ -212,16 +228,28 @@ namespace Stellaris_Lobby_Manager
                     Offset = 0xC9,
                 }
             },
-            {"fallenEmpires", new NumericSettingItem
+            {"fallenEmpires", new NumericRandomSettingItem
                 {
                     Name = "fallenEmpires",
                     Offset = 0x58,
                 }
             },
-            {"marauderEmpires", new NumericSettingItem
+            {"fallenEmpiresRandom", new CheckSettingItem
+                {
+                    Name = "fallenEmpiresRandom",
+                    Offset = 0x63,
+                }
+            },
+            {"marauderEmpires", new NumericRandomSettingItem
                 {
                     Name = "marauderEmpires",
                     Offset = 0x5C,
+                }
+            },
+            {"marauderEmpiresRandom", new CheckSettingItem
+                {
+                    Name = "marauderEmpiresRandom",
+                    Offset = 0x62,
                 }
             },
             {"crisisStrength", new PreciseNumericSettingItem

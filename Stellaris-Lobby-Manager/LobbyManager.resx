@@ -158,13 +158,13 @@
     <value>Settings</value>
   </data>
   <data name="offsetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="offsetToolStripMenuItem.Text" xml:space="preserve">
     <value>Offset</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>About</value>
@@ -4213,60 +4213,6 @@
   <data name="&gt;&gt;crisisTypeGame.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="AIEmpiresGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="AIEmpiresGame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 11</value>
-  </data>
-  <data name="AIEmpiresGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
-  </data>
-  <data name="AIEmpiresGame.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="AIEmpiresGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresGame.Name" xml:space="preserve">
-    <value>AIEmpiresGame</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresGame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresGame.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresGame.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="advancedAIStartsGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="advancedAIStartsGame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 56</value>
-  </data>
-  <data name="advancedAIStartsGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
-  </data>
-  <data name="advancedAIStartsGame.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="advancedAIStartsGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsGame.Name" xml:space="preserve">
-    <value>advancedAIStartsGame</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsGame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsGame.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsGame.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
   <data name="crisisStrengthGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
@@ -4292,7 +4238,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisStrengthGame.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>21</value>
   </data>
   <data name="advancedNeighborsGame.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4328,61 +4274,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;advancedNeighborsGame.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="fallenEmpiresGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="fallenEmpiresGame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 146</value>
-  </data>
-  <data name="fallenEmpiresGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
-  </data>
-  <data name="fallenEmpiresGame.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="fallenEmpiresGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresGame.Name" xml:space="preserve">
-    <value>fallenEmpiresGame</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresGame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresGame.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresGame.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="marauderEmpiresGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="marauderEmpiresGame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 191</value>
-  </data>
-  <data name="marauderEmpiresGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
-  </data>
-  <data name="marauderEmpiresGame.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="marauderEmpiresGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresGame.Name" xml:space="preserve">
-    <value>marauderEmpiresGame</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresGame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresGame.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresGame.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>22</value>
   </data>
   <data name="midGameStartYearGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4409,7 +4301,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;midGameStartYearGame.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>23</value>
   </data>
   <data name="endGameStartYearGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4436,7 +4328,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;endGameStartYearGame.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>24</value>
   </data>
   <data name="difficultyGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4481,7 +4373,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyGame.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>25</value>
   </data>
   <data name="AIAggressivenessGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4514,7 +4406,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;AIAggressivenessGame.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>26</value>
   </data>
   <data name="difficultyAdjustedAIGame.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4550,7 +4442,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyAdjustedAIGame.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>27</value>
   </data>
   <data name="endGameStartYearSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4577,7 +4469,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;endGameStartYearSet.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>28</value>
   </data>
   <data name="midGameStartYearSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4604,7 +4496,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;midGameStartYearSet.ZOrder" xml:space="preserve">
-    <value>33</value>
+    <value>29</value>
   </data>
   <data name="AIAggressivenessSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4637,7 +4529,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;AIAggressivenessSet.ZOrder" xml:space="preserve">
-    <value>34</value>
+    <value>30</value>
   </data>
   <data name="crisisStrengthSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4664,115 +4556,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisStrengthSet.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="marauderEmpiresSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="marauderEmpiresSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>353, 191</value>
-  </data>
-  <data name="marauderEmpiresSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 23</value>
-  </data>
-  <data name="marauderEmpiresSet.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="marauderEmpiresSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresSet.Name" xml:space="preserve">
-    <value>marauderEmpiresSet</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresSet.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;marauderEmpiresSet.ZOrder" xml:space="preserve">
-    <value>36</value>
-  </data>
-  <data name="fallenEmpiresSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="fallenEmpiresSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>353, 146</value>
-  </data>
-  <data name="fallenEmpiresSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 23</value>
-  </data>
-  <data name="fallenEmpiresSet.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="fallenEmpiresSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresSet.Name" xml:space="preserve">
-    <value>fallenEmpiresSet</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresSet.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;fallenEmpiresSet.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
-  <data name="advancedAIStartsSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="advancedAIStartsSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>353, 56</value>
-  </data>
-  <data name="advancedAIStartsSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 23</value>
-  </data>
-  <data name="advancedAIStartsSet.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="advancedAIStartsSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsSet.Name" xml:space="preserve">
-    <value>advancedAIStartsSet</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsSet.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;advancedAIStartsSet.ZOrder" xml:space="preserve">
-    <value>38</value>
-  </data>
-  <data name="AIEmpiresSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
-  <data name="AIEmpiresSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>353, 11</value>
-  </data>
-  <data name="AIEmpiresSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 23</value>
-  </data>
-  <data name="AIEmpiresSet.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="AIEmpiresSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresSet.Name" xml:space="preserve">
-    <value>AIEmpiresSet</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresSet.Parent" xml:space="preserve">
-    <value>settingsColRight</value>
-  </data>
-  <data name="&gt;&gt;AIEmpiresSet.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>31</value>
   </data>
   <data name="advancedNeighborsSet.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4808,7 +4592,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;advancedNeighborsSet.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>32</value>
   </data>
   <data name="difficultyAdjustedAISet.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4844,7 +4628,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyAdjustedAISet.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>33</value>
   </data>
   <data name="scalingDifficultyGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4877,7 +4661,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;scalingDifficultyGame.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>34</value>
   </data>
   <data name="victoryYearDesc.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -4907,7 +4691,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;victoryYearDesc.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>35</value>
   </data>
   <data name="ironmanModeDesc.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -4937,7 +4721,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;ironmanModeDesc.ZOrder" xml:space="preserve">
-    <value>44</value>
+    <value>36</value>
   </data>
   <data name="victoryYearGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4964,7 +4748,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;victoryYearGame.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>37</value>
   </data>
   <data name="victoryYearSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -4991,7 +4775,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;victoryYearSet.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>38</value>
   </data>
   <data name="ironmanModeGame.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5027,7 +4811,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;ironmanModeGame.ZOrder" xml:space="preserve">
-    <value>47</value>
+    <value>39</value>
   </data>
   <data name="ironmanModeSet.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5063,7 +4847,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;ironmanModeSet.ZOrder" xml:space="preserve">
-    <value>48</value>
+    <value>40</value>
   </data>
   <data name="placeholder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -5096,7 +4880,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;placeholder.ZOrder" xml:space="preserve">
-    <value>49</value>
+    <value>41</value>
   </data>
   <data name="crisisTypeSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5135,7 +4919,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisTypeSet.ZOrder" xml:space="preserve">
-    <value>50</value>
+    <value>42</value>
   </data>
   <data name="difficultySet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5180,7 +4964,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultySet.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>43</value>
   </data>
   <data name="scalingDifficultySet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5213,7 +4997,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;scalingDifficultySet.ZOrder" xml:space="preserve">
-    <value>52</value>
+    <value>44</value>
   </data>
   <data name="advancedNeighborsApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5246,7 +5030,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;advancedNeighborsApply.ZOrder" xml:space="preserve">
-    <value>53</value>
+    <value>45</value>
   </data>
   <data name="crisisStrengthApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5279,7 +5063,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisStrengthApply.ZOrder" xml:space="preserve">
-    <value>54</value>
+    <value>46</value>
   </data>
   <data name="crisisTypeApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5312,7 +5096,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisTypeApply.ZOrder" xml:space="preserve">
-    <value>55</value>
+    <value>47</value>
   </data>
   <data name="difficultyApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5345,7 +5129,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyApply.ZOrder" xml:space="preserve">
-    <value>56</value>
+    <value>48</value>
   </data>
   <data name="scalingDifficultyApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5378,7 +5162,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;scalingDifficultyApply.ZOrder" xml:space="preserve">
-    <value>57</value>
+    <value>49</value>
   </data>
   <data name="difficultyAdjustedAIApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5411,7 +5195,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyAdjustedAIApply.ZOrder" xml:space="preserve">
-    <value>58</value>
+    <value>50</value>
   </data>
   <data name="AIAggressivenessApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5444,7 +5228,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;AIAggressivenessApply.ZOrder" xml:space="preserve">
-    <value>59</value>
+    <value>51</value>
   </data>
   <data name="midGameStartYearApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5477,7 +5261,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;midGameStartYearApply.ZOrder" xml:space="preserve">
-    <value>60</value>
+    <value>52</value>
   </data>
   <data name="endGameStartYearApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5510,7 +5294,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;endGameStartYearApply.ZOrder" xml:space="preserve">
-    <value>61</value>
+    <value>53</value>
   </data>
   <data name="victoryYearApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5543,7 +5327,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;victoryYearApply.ZOrder" xml:space="preserve">
-    <value>62</value>
+    <value>54</value>
   </data>
   <data name="ironmanModeApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5576,7 +5360,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;ironmanModeApply.ZOrder" xml:space="preserve">
-    <value>63</value>
+    <value>55</value>
   </data>
   <data name="advancedNeighborsRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5609,7 +5393,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;advancedNeighborsRecord.ZOrder" xml:space="preserve">
-    <value>64</value>
+    <value>56</value>
   </data>
   <data name="crisisStrengthRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5642,7 +5426,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisStrengthRecord.ZOrder" xml:space="preserve">
-    <value>65</value>
+    <value>57</value>
   </data>
   <data name="crisisTypeRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5675,7 +5459,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisTypeRecord.ZOrder" xml:space="preserve">
-    <value>66</value>
+    <value>58</value>
   </data>
   <data name="difficultyRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5708,7 +5492,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyRecord.ZOrder" xml:space="preserve">
-    <value>67</value>
+    <value>59</value>
   </data>
   <data name="scalingDifficultyRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5741,7 +5525,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;scalingDifficultyRecord.ZOrder" xml:space="preserve">
-    <value>68</value>
+    <value>60</value>
   </data>
   <data name="difficultyAdjustedAIRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5774,7 +5558,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyAdjustedAIRecord.ZOrder" xml:space="preserve">
-    <value>69</value>
+    <value>61</value>
   </data>
   <data name="AIAggressivenessRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5807,7 +5591,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;AIAggressivenessRecord.ZOrder" xml:space="preserve">
-    <value>70</value>
+    <value>62</value>
   </data>
   <data name="midGameStartYearRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5840,7 +5624,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;midGameStartYearRecord.ZOrder" xml:space="preserve">
-    <value>71</value>
+    <value>63</value>
   </data>
   <data name="endGameStartYearRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5873,7 +5657,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;endGameStartYearRecord.ZOrder" xml:space="preserve">
-    <value>72</value>
+    <value>64</value>
   </data>
   <data name="victoryYearRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5906,7 +5690,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;victoryYearRecord.ZOrder" xml:space="preserve">
-    <value>73</value>
+    <value>65</value>
   </data>
   <data name="ironmanModeRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5939,7 +5723,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;ironmanModeRecord.ZOrder" xml:space="preserve">
-    <value>74</value>
+    <value>66</value>
   </data>
   <data name="AIEmpiresControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -5972,7 +5756,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;AIEmpiresControl.ZOrder" xml:space="preserve">
-    <value>75</value>
+    <value>67</value>
   </data>
   <data name="advancedAIStartsControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6005,7 +5789,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;advancedAIStartsControl.ZOrder" xml:space="preserve">
-    <value>76</value>
+    <value>68</value>
   </data>
   <data name="advancedNeighborsControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6038,7 +5822,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;advancedNeighborsControl.ZOrder" xml:space="preserve">
-    <value>77</value>
+    <value>69</value>
   </data>
   <data name="fallenEmpiresControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6071,7 +5855,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;fallenEmpiresControl.ZOrder" xml:space="preserve">
-    <value>78</value>
+    <value>70</value>
   </data>
   <data name="marauderEmpiresControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6104,7 +5888,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;marauderEmpiresControl.ZOrder" xml:space="preserve">
-    <value>79</value>
+    <value>71</value>
   </data>
   <data name="crisisStrengthControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6137,7 +5921,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisStrengthControl.ZOrder" xml:space="preserve">
-    <value>80</value>
+    <value>72</value>
   </data>
   <data name="crisisTypeControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6170,7 +5954,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;crisisTypeControl.ZOrder" xml:space="preserve">
-    <value>81</value>
+    <value>73</value>
   </data>
   <data name="difficultyControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6203,7 +5987,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyControl.ZOrder" xml:space="preserve">
-    <value>82</value>
+    <value>74</value>
   </data>
   <data name="scalingDifficultyControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6236,7 +6020,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;scalingDifficultyControl.ZOrder" xml:space="preserve">
-    <value>83</value>
+    <value>75</value>
   </data>
   <data name="difficultyAdjustedAIControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6269,7 +6053,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;difficultyAdjustedAIControl.ZOrder" xml:space="preserve">
-    <value>84</value>
+    <value>76</value>
   </data>
   <data name="AIAggressivenessControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6302,7 +6086,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;AIAggressivenessControl.ZOrder" xml:space="preserve">
-    <value>85</value>
+    <value>77</value>
   </data>
   <data name="midGameStartYearControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6335,7 +6119,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;midGameStartYearControl.ZOrder" xml:space="preserve">
-    <value>86</value>
+    <value>78</value>
   </data>
   <data name="endGameStartYearControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6368,7 +6152,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;endGameStartYearControl.ZOrder" xml:space="preserve">
-    <value>87</value>
+    <value>79</value>
   </data>
   <data name="victoryYearControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6401,7 +6185,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;victoryYearControl.ZOrder" xml:space="preserve">
-    <value>88</value>
+    <value>80</value>
   </data>
   <data name="ironmanModeControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6434,7 +6218,7 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;ironmanModeControl.ZOrder" xml:space="preserve">
-    <value>89</value>
+    <value>81</value>
   </data>
   <data name="marauderEmpiresApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -6467,7 +6251,772 @@
     <value>settingsColRight</value>
   </data>
   <data name="&gt;&gt;marauderEmpiresApply.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="tableLayoutPanel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AIEmpiresRandomSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="AIEmpiresRandomSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AIEmpiresRandomSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AIEmpiresRandomSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 12</value>
+  </data>
+  <data name="AIEmpiresRandomSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 21</value>
+  </data>
+  <data name="AIEmpiresRandomSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AIEmpiresRandomSet.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomSet.Name" xml:space="preserve">
+    <value>AIEmpiresRandomSet</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomSet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AIEmpiresSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="AIEmpiresSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="AIEmpiresSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="AIEmpiresSet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AIEmpiresSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresSet.Name" xml:space="preserve">
+    <value>AIEmpiresSet</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresSet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 0</value>
+  </data>
+  <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="AIEmpiresRandomSet" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresSet" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="advancedAIStartsRandomGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="advancedAIStartsRandomGame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="advancedAIStartsRandomGame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="advancedAIStartsRandomGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 12</value>
+  </data>
+  <data name="advancedAIStartsRandomGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 21</value>
+  </data>
+  <data name="advancedAIStartsRandomGame.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="advancedAIStartsRandomGame.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomGame.Name" xml:space="preserve">
+    <value>advancedAIStartsRandomGame</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomGame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="advancedAIStartsGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="advancedAIStartsGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="advancedAIStartsGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="advancedAIStartsGame.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="advancedAIStartsGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsGame.Name" xml:space="preserve">
+    <value>advancedAIStartsGame</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsGame.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 45</value>
+  </data>
+  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 45</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="advancedAIStartsRandomGame" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsGame" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="advancedAIStartsRandomSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="advancedAIStartsRandomSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="advancedAIStartsRandomSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="advancedAIStartsRandomSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 12</value>
+  </data>
+  <data name="advancedAIStartsRandomSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 21</value>
+  </data>
+  <data name="advancedAIStartsRandomSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="advancedAIStartsRandomSet.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomSet.Name" xml:space="preserve">
+    <value>advancedAIStartsRandomSet</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsRandomSet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="advancedAIStartsSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="advancedAIStartsSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="advancedAIStartsSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="advancedAIStartsSet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="advancedAIStartsSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsSet.Name" xml:space="preserve">
+    <value>advancedAIStartsSet</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;advancedAIStartsSet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 45</value>
+  </data>
+  <data name="tableLayoutPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="advancedAIStartsRandomSet" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsSet" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AIEmpiresRandomGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="AIEmpiresRandomGame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AIEmpiresRandomGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 12</value>
+  </data>
+  <data name="AIEmpiresRandomGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 21</value>
+  </data>
+  <data name="AIEmpiresRandomGame.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AIEmpiresRandomGame.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomGame.Name" xml:space="preserve">
+    <value>AIEmpiresRandomGame</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresRandomGame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AIEmpiresGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="AIEmpiresGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="AIEmpiresGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="AIEmpiresGame.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AIEmpiresGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresGame.Name" xml:space="preserve">
+    <value>AIEmpiresGame</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;AIEmpiresGame.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 45</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="AIEmpiresRandomGame" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresGame" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="fallenEmpiresRandomGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="fallenEmpiresRandomGame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fallenEmpiresRandomGame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fallenEmpiresRandomGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 12</value>
+  </data>
+  <data name="fallenEmpiresRandomGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 21</value>
+  </data>
+  <data name="fallenEmpiresRandomGame.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fallenEmpiresRandomGame.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomGame.Name" xml:space="preserve">
+    <value>fallenEmpiresRandomGame</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomGame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fallenEmpiresGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="fallenEmpiresGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="fallenEmpiresGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="fallenEmpiresGame.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="fallenEmpiresGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresGame.Name" xml:space="preserve">
+    <value>fallenEmpiresGame</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresGame.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 135</value>
+  </data>
+  <data name="tableLayoutPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel6.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 45</value>
+  </data>
+  <data name="tableLayoutPanel6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.Name" xml:space="preserve">
+    <value>tableLayoutPanel6</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel6.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="fallenEmpiresRandomGame" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresGame" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="fallenEmpiresRandomSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="fallenEmpiresRandomSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fallenEmpiresRandomSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fallenEmpiresRandomSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 12</value>
+  </data>
+  <data name="fallenEmpiresRandomSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 21</value>
+  </data>
+  <data name="fallenEmpiresRandomSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fallenEmpiresRandomSet.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomSet.Name" xml:space="preserve">
+    <value>fallenEmpiresRandomSet</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresRandomSet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fallenEmpiresSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="fallenEmpiresSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="fallenEmpiresSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="fallenEmpiresSet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="fallenEmpiresSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresSet.Name" xml:space="preserve">
+    <value>fallenEmpiresSet</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;fallenEmpiresSet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 135</value>
+  </data>
+  <data name="tableLayoutPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="fallenEmpiresRandomSet" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresSet" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel7.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="marauderEmpiresRandomGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="marauderEmpiresRandomGame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="marauderEmpiresRandomGame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="marauderEmpiresRandomGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 12</value>
+  </data>
+  <data name="marauderEmpiresRandomGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 21</value>
+  </data>
+  <data name="marauderEmpiresRandomGame.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="marauderEmpiresRandomGame.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomGame.Name" xml:space="preserve">
+    <value>marauderEmpiresRandomGame</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomGame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="marauderEmpiresGame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="marauderEmpiresGame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="marauderEmpiresGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="marauderEmpiresGame.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="marauderEmpiresGame.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresGame.Name" xml:space="preserve">
+    <value>marauderEmpiresGame</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresGame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresGame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresGame.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 180</value>
+  </data>
+  <data name="tableLayoutPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel7.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 45</value>
+  </data>
+  <data name="tableLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Name" xml:space="preserve">
+    <value>tableLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel7.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="tableLayoutPanel7.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="marauderEmpiresRandomGame" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresGame" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel8.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="marauderEmpiresRandomSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="marauderEmpiresRandomSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="marauderEmpiresRandomSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="marauderEmpiresRandomSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 12</value>
+  </data>
+  <data name="marauderEmpiresRandomSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 21</value>
+  </data>
+  <data name="marauderEmpiresRandomSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="marauderEmpiresRandomSet.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomSet.Name" xml:space="preserve">
+    <value>marauderEmpiresRandomSet</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresRandomSet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="marauderEmpiresSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="marauderEmpiresSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="marauderEmpiresSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="marauderEmpiresSet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="marauderEmpiresSet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresSet.Name" xml:space="preserve">
+    <value>marauderEmpiresSet</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresSet.Parent" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;marauderEmpiresSet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 180</value>
+  </data>
+  <data name="tableLayoutPanel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel8.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="tableLayoutPanel8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.Name" xml:space="preserve">
+    <value>tableLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.Parent" xml:space="preserve">
+    <value>settingsColRight</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel8.ZOrder" xml:space="preserve">
     <value>90</value>
+  </data>
+  <data name="tableLayoutPanel8.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="marauderEmpiresRandomSet" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresSet" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,82,Percent,18" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="settingsColRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -6497,7 +7046,7 @@
     <value>2</value>
   </data>
   <data name="settingsColRight.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="marauderEmpiresRecord" Row="4" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresApply" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresRecord" Row="3" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsApply" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsRecord" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresRecord" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresApply" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearDesc" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearDesc" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessDesc" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIDesc" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyDesc" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="difficultyDesc" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeDesc" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthDesc" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresDesc" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresDesc" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsDesc" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsDesc" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresDesc" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeGame" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresGame" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsGame" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthGame" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsGame" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresGame" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresGame" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearGame" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearGame" Row="12" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="difficultyGame" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessGame" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIGame" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearSet" Row="12" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearSet" Row="11" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessSet" Row="10" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthSet" Row="5" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresSet" Row="4" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresSet" Row="3" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsSet" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresSet" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsSet" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAISet" Row="9" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyGame" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearDesc" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeDesc" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearGame" Row="13" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearSet" Row="13" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeGame" Row="14" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeSet" Row="14" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="placeholder" Row="15" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeSet" Row="6" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="difficultySet" Row="7" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultySet" Row="8" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsApply" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthApply" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeApply" Row="6" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="difficultyApply" Row="7" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyApply" Row="8" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIApply" Row="9" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessApply" Row="10" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearApply" Row="11" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearApply" Row="12" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearApply" Row="13" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeApply" Row="14" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsRecord" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthRecord" Row="5" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeRecord" Row="6" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="difficultyRecord" Row="7" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyRecord" Row="8" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIRecord" Row="9" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessRecord" Row="10" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearRecord" Row="11" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearRecord" Row="12" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearRecord" Row="13" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeRecord" Row="14" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresControl" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsControl" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsControl" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresControl" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresControl" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthControl" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeControl" Row="6" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="difficultyControl" Row="7" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyControl" Row="8" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIControl" Row="9" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessControl" Row="10" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearControl" Row="11" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearControl" Row="12" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearControl" Row="13" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeControl" Row="14" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresApply" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,Percent,24,Percent,6,Percent,6,Percent,6,Percent,24" /&gt;&lt;Rows Styles="Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="marauderEmpiresRecord" Row="4" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresApply" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresRecord" Row="3" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsApply" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsRecord" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresRecord" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresApply" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearDesc" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearDesc" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessDesc" Row="10" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIDesc" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyDesc" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="difficultyDesc" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeDesc" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthDesc" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresDesc" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresDesc" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsDesc" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsDesc" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresDesc" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeGame" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthGame" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsGame" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearGame" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearGame" Row="12" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="difficultyGame" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessGame" Row="10" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIGame" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearSet" Row="12" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearSet" Row="11" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessSet" Row="10" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthSet" Row="5" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsSet" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAISet" Row="9" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyGame" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearDesc" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeDesc" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearGame" Row="13" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearSet" Row="13" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeGame" Row="14" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeSet" Row="14" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="placeholder" Row="15" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeSet" Row="6" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="difficultySet" Row="7" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultySet" Row="8" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsApply" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthApply" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeApply" Row="6" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="difficultyApply" Row="7" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyApply" Row="8" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIApply" Row="9" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessApply" Row="10" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearApply" Row="11" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearApply" Row="12" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearApply" Row="13" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeApply" Row="14" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsRecord" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthRecord" Row="5" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeRecord" Row="6" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="difficultyRecord" Row="7" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyRecord" Row="8" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIRecord" Row="9" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessRecord" Row="10" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearRecord" Row="11" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearRecord" Row="12" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearRecord" Row="13" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeRecord" Row="14" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="AIEmpiresControl" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="advancedAIStartsControl" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="advancedNeighborsControl" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="fallenEmpiresControl" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresControl" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="crisisStrengthControl" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="crisisTypeControl" Row="6" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="difficultyControl" Row="7" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="scalingDifficultyControl" Row="8" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="difficultyAdjustedAIControl" Row="9" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="AIAggressivenessControl" Row="10" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="midGameStartYearControl" Row="11" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="endGameStartYearControl" Row="12" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="victoryYearControl" Row="13" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ironmanModeControl" Row="14" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="marauderEmpiresApply" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel4" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel6" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="3" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel7" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel8" Row="4" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,34,Percent,24,Percent,6,Percent,6,Percent,6,Percent,24" /&gt;&lt;Rows Styles="Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25,Percent,6.25" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="tableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

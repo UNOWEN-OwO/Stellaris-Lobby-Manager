@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 
 namespace Stellaris_Lobby_Manager
 {
@@ -172,12 +172,8 @@ namespace Stellaris_Lobby_Manager
             advancedAIStartsDesc = new Label();
             AIEmpiresDesc = new Label();
             crisisTypeGame = new ComboBox();
-            AIEmpiresGame = new NumericUpDown();
-            advancedAIStartsGame = new NumericUpDown();
             crisisStrengthGame = new NumericUpDown();
             advancedNeighborsGame = new CheckBox();
-            fallenEmpiresGame = new NumericUpDown();
-            marauderEmpiresGame = new NumericUpDown();
             midGameStartYearGame = new NumericUpDown();
             endGameStartYearGame = new NumericUpDown();
             difficultyGame = new ComboBox();
@@ -187,10 +183,6 @@ namespace Stellaris_Lobby_Manager
             midGameStartYearSet = new NumericUpDown();
             AIAggressivenessSet = new ComboBox();
             crisisStrengthSet = new NumericUpDown();
-            marauderEmpiresSet = new NumericUpDown();
-            fallenEmpiresSet = new NumericUpDown();
-            advancedAIStartsSet = new NumericUpDown();
-            AIEmpiresSet = new NumericUpDown();
             advancedNeighborsSet = new CheckBox();
             difficultyAdjustedAISet = new CheckBox();
             scalingDifficultyGame = new ComboBox();
@@ -242,6 +234,30 @@ namespace Stellaris_Lobby_Manager
             victoryYearControl = new Button();
             ironmanModeControl = new Button();
             marauderEmpiresApply = new Button();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            AIEmpiresRandomSet = new CheckBox();
+            AIEmpiresSet = new NumericUpDown();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            advancedAIStartsRandomGame = new CheckBox();
+            advancedAIStartsGame = new NumericUpDown();
+            tableLayoutPanel4 = new TableLayoutPanel();
+            advancedAIStartsRandomSet = new CheckBox();
+            advancedAIStartsSet = new NumericUpDown();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            AIEmpiresRandomGame = new CheckBox();
+            AIEmpiresGame = new NumericUpDown();
+            tableLayoutPanel6 = new TableLayoutPanel();
+            fallenEmpiresRandomGame = new CheckBox();
+            fallenEmpiresGame = new NumericUpDown();
+            tableLayoutPanel5 = new TableLayoutPanel();
+            fallenEmpiresRandomSet = new CheckBox();
+            fallenEmpiresSet = new NumericUpDown();
+            tableLayoutPanel7 = new TableLayoutPanel();
+            marauderEmpiresRandomGame = new CheckBox();
+            marauderEmpiresGame = new NumericUpDown();
+            tableLayoutPanel8 = new TableLayoutPanel();
+            marauderEmpiresRandomSet = new CheckBox();
+            marauderEmpiresSet = new NumericUpDown();
             lobbySettingsBindingSource = new BindingSource(components);
             menuStrip.SuspendLayout();
             tableLayoutPanel.SuspendLayout();
@@ -266,22 +282,30 @@ namespace Stellaris_Lobby_Manager
             ((System.ComponentModel.ISupportInitialize)growthRequiredScalingSet).BeginInit();
             controlsPanel.SuspendLayout();
             settingsColRight.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)AIEmpiresGame).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)advancedAIStartsGame).BeginInit();
             ((System.ComponentModel.ISupportInitialize)crisisStrengthGame).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)fallenEmpiresGame).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)marauderEmpiresGame).BeginInit();
             ((System.ComponentModel.ISupportInitialize)midGameStartYearGame).BeginInit();
             ((System.ComponentModel.ISupportInitialize)endGameStartYearGame).BeginInit();
             ((System.ComponentModel.ISupportInitialize)endGameStartYearSet).BeginInit();
             ((System.ComponentModel.ISupportInitialize)midGameStartYearSet).BeginInit();
             ((System.ComponentModel.ISupportInitialize)crisisStrengthSet).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)marauderEmpiresSet).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)fallenEmpiresSet).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)advancedAIStartsSet).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)AIEmpiresSet).BeginInit();
             ((System.ComponentModel.ISupportInitialize)victoryYearGame).BeginInit();
             ((System.ComponentModel.ISupportInitialize)victoryYearSet).BeginInit();
+            tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)AIEmpiresSet).BeginInit();
+            tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)advancedAIStartsGame).BeginInit();
+            tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)advancedAIStartsSet).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)AIEmpiresGame).BeginInit();
+            tableLayoutPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)fallenEmpiresGame).BeginInit();
+            tableLayoutPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)fallenEmpiresSet).BeginInit();
+            tableLayoutPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)marauderEmpiresGame).BeginInit();
+            tableLayoutPanel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)marauderEmpiresSet).BeginInit();
             ((System.ComponentModel.ISupportInitialize)lobbySettingsBindingSource).BeginInit();
             SuspendLayout();
             // 
@@ -337,11 +361,13 @@ namespace Stellaris_Lobby_Manager
             // 
             offsetToolStripMenuItem.Name = "offsetToolStripMenuItem";
             resources.ApplyResources(offsetToolStripMenuItem, "offsetToolStripMenuItem");
+            offsetToolStripMenuItem.Click += offsetToolStripMenuItem_Click;
             // 
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             resources.ApplyResources(aboutToolStripMenuItem, "aboutToolStripMenuItem");
+            aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
             // 
             // tableLayoutPanel
             // 
@@ -1290,12 +1316,8 @@ namespace Stellaris_Lobby_Manager
             settingsColRight.Controls.Add(advancedAIStartsDesc, 0, 1);
             settingsColRight.Controls.Add(AIEmpiresDesc, 0, 0);
             settingsColRight.Controls.Add(crisisTypeGame, 1, 6);
-            settingsColRight.Controls.Add(AIEmpiresGame, 1, 0);
-            settingsColRight.Controls.Add(advancedAIStartsGame, 1, 1);
             settingsColRight.Controls.Add(crisisStrengthGame, 1, 5);
             settingsColRight.Controls.Add(advancedNeighborsGame, 1, 2);
-            settingsColRight.Controls.Add(fallenEmpiresGame, 1, 3);
-            settingsColRight.Controls.Add(marauderEmpiresGame, 1, 4);
             settingsColRight.Controls.Add(midGameStartYearGame, 1, 11);
             settingsColRight.Controls.Add(endGameStartYearGame, 1, 12);
             settingsColRight.Controls.Add(difficultyGame, 1, 7);
@@ -1305,10 +1327,6 @@ namespace Stellaris_Lobby_Manager
             settingsColRight.Controls.Add(midGameStartYearSet, 5, 11);
             settingsColRight.Controls.Add(AIAggressivenessSet, 5, 10);
             settingsColRight.Controls.Add(crisisStrengthSet, 5, 5);
-            settingsColRight.Controls.Add(marauderEmpiresSet, 5, 4);
-            settingsColRight.Controls.Add(fallenEmpiresSet, 5, 3);
-            settingsColRight.Controls.Add(advancedAIStartsSet, 5, 1);
-            settingsColRight.Controls.Add(AIEmpiresSet, 5, 0);
             settingsColRight.Controls.Add(advancedNeighborsSet, 5, 2);
             settingsColRight.Controls.Add(difficultyAdjustedAISet, 5, 9);
             settingsColRight.Controls.Add(scalingDifficultyGame, 1, 8);
@@ -1360,6 +1378,14 @@ namespace Stellaris_Lobby_Manager
             settingsColRight.Controls.Add(victoryYearControl, 3, 13);
             settingsColRight.Controls.Add(ironmanModeControl, 3, 14);
             settingsColRight.Controls.Add(marauderEmpiresApply, 2, 4);
+            settingsColRight.Controls.Add(tableLayoutPanel3, 5, 0);
+            settingsColRight.Controls.Add(tableLayoutPanel2, 1, 1);
+            settingsColRight.Controls.Add(tableLayoutPanel4, 5, 1);
+            settingsColRight.Controls.Add(tableLayoutPanel1, 1, 0);
+            settingsColRight.Controls.Add(tableLayoutPanel6, 1, 3);
+            settingsColRight.Controls.Add(tableLayoutPanel5, 5, 3);
+            settingsColRight.Controls.Add(tableLayoutPanel7, 1, 4);
+            settingsColRight.Controls.Add(tableLayoutPanel8, 5, 4);
             settingsColRight.Name = "settingsColRight";
             // 
             // marauderEmpiresRecord
@@ -1488,26 +1514,6 @@ namespace Stellaris_Lobby_Manager
             crisisTypeGame.SelectedIndexChanged += OnGameValueChanged;
             crisisTypeGame.DropDownClosed += onClose;
             // 
-            // AIEmpiresGame
-            // 
-            resources.ApplyResources(AIEmpiresGame, "AIEmpiresGame");
-            AIEmpiresGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            AIEmpiresGame.Name = "AIEmpiresGame";
-            AIEmpiresGame.Tag = 0;
-            AIEmpiresGame.ValueChanged += OnGameValueChanged;
-            AIEmpiresGame.MouseLeave += OnLeave;
-            AIEmpiresGame.GotFocus += OnFocus;
-            // 
-            // advancedAIStartsGame
-            // 
-            resources.ApplyResources(advancedAIStartsGame, "advancedAIStartsGame");
-            advancedAIStartsGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            advancedAIStartsGame.Name = "advancedAIStartsGame";
-            advancedAIStartsGame.Tag = 0;
-            advancedAIStartsGame.ValueChanged += OnGameValueChanged;
-            advancedAIStartsGame.MouseLeave += OnLeave;
-            advancedAIStartsGame.GotFocus += OnFocus;
-            // 
             // crisisStrengthGame
             // 
             resources.ApplyResources(crisisStrengthGame, "crisisStrengthGame");
@@ -1527,26 +1533,6 @@ namespace Stellaris_Lobby_Manager
             advancedNeighborsGame.Tag = 0;
             advancedNeighborsGame.UseVisualStyleBackColor = true;
             advancedNeighborsGame.CheckedChanged += OnGameValueChanged;
-            // 
-            // fallenEmpiresGame
-            // 
-            resources.ApplyResources(fallenEmpiresGame, "fallenEmpiresGame");
-            fallenEmpiresGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            fallenEmpiresGame.Name = "fallenEmpiresGame";
-            fallenEmpiresGame.Tag = 0;
-            fallenEmpiresGame.ValueChanged += OnGameValueChanged;
-            fallenEmpiresGame.MouseLeave += OnLeave;
-            fallenEmpiresGame.GotFocus += OnFocus;
-            // 
-            // marauderEmpiresGame
-            // 
-            resources.ApplyResources(marauderEmpiresGame, "marauderEmpiresGame");
-            marauderEmpiresGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            marauderEmpiresGame.Name = "marauderEmpiresGame";
-            marauderEmpiresGame.Tag = 0;
-            marauderEmpiresGame.ValueChanged += OnGameValueChanged;
-            marauderEmpiresGame.MouseLeave += OnLeave;
-            marauderEmpiresGame.GotFocus += OnFocus;
             // 
             // midGameStartYearGame
             // 
@@ -1639,38 +1625,6 @@ namespace Stellaris_Lobby_Manager
             crisisStrengthSet.Name = "crisisStrengthSet";
             crisisStrengthSet.Tag = 0;
             crisisStrengthSet.ValueChanged += OnSetValueChanged;
-            // 
-            // marauderEmpiresSet
-            // 
-            resources.ApplyResources(marauderEmpiresSet, "marauderEmpiresSet");
-            marauderEmpiresSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            marauderEmpiresSet.Name = "marauderEmpiresSet";
-            marauderEmpiresSet.Tag = 0;
-            marauderEmpiresSet.ValueChanged += OnSetValueChanged;
-            // 
-            // fallenEmpiresSet
-            // 
-            resources.ApplyResources(fallenEmpiresSet, "fallenEmpiresSet");
-            fallenEmpiresSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            fallenEmpiresSet.Name = "fallenEmpiresSet";
-            fallenEmpiresSet.Tag = 0;
-            fallenEmpiresSet.ValueChanged += OnSetValueChanged;
-            // 
-            // advancedAIStartsSet
-            // 
-            resources.ApplyResources(advancedAIStartsSet, "advancedAIStartsSet");
-            advancedAIStartsSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            advancedAIStartsSet.Name = "advancedAIStartsSet";
-            advancedAIStartsSet.Tag = 0;
-            advancedAIStartsSet.ValueChanged += OnSetValueChanged;
-            // 
-            // AIEmpiresSet
-            // 
-            resources.ApplyResources(AIEmpiresSet, "AIEmpiresSet");
-            AIEmpiresSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            AIEmpiresSet.Name = "AIEmpiresSet";
-            AIEmpiresSet.Tag = 0;
-            AIEmpiresSet.ValueChanged += OnSetValueChanged;
             // 
             // advancedNeighborsSet
             // 
@@ -2047,6 +2001,198 @@ namespace Stellaris_Lobby_Manager
             marauderEmpiresApply.UseVisualStyleBackColor = true;
             marauderEmpiresApply.Click += ApplySingle_Click;
             // 
+            // tableLayoutPanel3
+            // 
+            resources.ApplyResources(tableLayoutPanel3, "tableLayoutPanel3");
+            tableLayoutPanel3.Controls.Add(AIEmpiresRandomSet, 1, 0);
+            tableLayoutPanel3.Controls.Add(AIEmpiresSet, 0, 0);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            // 
+            // AIEmpiresRandomSet
+            // 
+            resources.ApplyResources(AIEmpiresRandomSet, "AIEmpiresRandomSet");
+            AIEmpiresRandomSet.Name = "AIEmpiresRandomSet";
+            AIEmpiresRandomSet.Tag = 0;
+            AIEmpiresRandomSet.UseVisualStyleBackColor = true;
+            AIEmpiresRandomSet.CheckedChanged += OnSetValueChanged;
+            // 
+            // AIEmpiresSet
+            // 
+            resources.ApplyResources(AIEmpiresSet, "AIEmpiresSet");
+            AIEmpiresSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            AIEmpiresSet.Name = "AIEmpiresSet";
+            AIEmpiresSet.Tag = 0;
+            AIEmpiresSet.ValueChanged += OnSetValueChanged;
+            // 
+            // tableLayoutPanel2
+            // 
+            resources.ApplyResources(tableLayoutPanel2, "tableLayoutPanel2");
+            tableLayoutPanel2.Controls.Add(advancedAIStartsRandomGame, 1, 0);
+            tableLayoutPanel2.Controls.Add(advancedAIStartsGame, 0, 0);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
+            // advancedAIStartsRandomGame
+            // 
+            resources.ApplyResources(advancedAIStartsRandomGame, "advancedAIStartsRandomGame");
+            advancedAIStartsRandomGame.Name = "advancedAIStartsRandomGame";
+            advancedAIStartsRandomGame.Tag = 0;
+            advancedAIStartsRandomGame.UseVisualStyleBackColor = true;
+            advancedAIStartsRandomGame.CheckedChanged += OnGameValueChanged;
+            // 
+            // advancedAIStartsGame
+            // 
+            resources.ApplyResources(advancedAIStartsGame, "advancedAIStartsGame");
+            advancedAIStartsGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            advancedAIStartsGame.Name = "advancedAIStartsGame";
+            advancedAIStartsGame.Tag = 0;
+            advancedAIStartsGame.ValueChanged += OnGameValueChanged;
+            advancedAIStartsGame.MouseLeave += OnLeave;
+            advancedAIStartsGame.GotFocus += OnFocus;
+            // 
+            // tableLayoutPanel4
+            // 
+            resources.ApplyResources(tableLayoutPanel4, "tableLayoutPanel4");
+            tableLayoutPanel4.Controls.Add(advancedAIStartsRandomSet, 1, 0);
+            tableLayoutPanel4.Controls.Add(advancedAIStartsSet, 0, 0);
+            tableLayoutPanel4.Name = "tableLayoutPanel4";
+            // 
+            // advancedAIStartsRandomSet
+            // 
+            resources.ApplyResources(advancedAIStartsRandomSet, "advancedAIStartsRandomSet");
+            advancedAIStartsRandomSet.Name = "advancedAIStartsRandomSet";
+            advancedAIStartsRandomSet.Tag = 0;
+            advancedAIStartsRandomSet.UseVisualStyleBackColor = true;
+            advancedAIStartsRandomSet.CheckedChanged += OnSetValueChanged;
+            // 
+            // advancedAIStartsSet
+            // 
+            resources.ApplyResources(advancedAIStartsSet, "advancedAIStartsSet");
+            advancedAIStartsSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            advancedAIStartsSet.Name = "advancedAIStartsSet";
+            advancedAIStartsSet.Tag = 0;
+            advancedAIStartsSet.ValueChanged += OnSetValueChanged;
+            // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.Controls.Add(AIEmpiresRandomGame, 1, 0);
+            tableLayoutPanel1.Controls.Add(AIEmpiresGame, 0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // AIEmpiresRandomGame
+            // 
+            resources.ApplyResources(AIEmpiresRandomGame, "AIEmpiresRandomGame");
+            AIEmpiresRandomGame.Name = "AIEmpiresRandomGame";
+            AIEmpiresRandomGame.Tag = 0;
+            AIEmpiresRandomGame.UseVisualStyleBackColor = true;
+            AIEmpiresRandomGame.CheckedChanged += OnGameValueChanged;
+            // 
+            // AIEmpiresGame
+            // 
+            resources.ApplyResources(AIEmpiresGame, "AIEmpiresGame");
+            AIEmpiresGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            AIEmpiresGame.Name = "AIEmpiresGame";
+            AIEmpiresGame.Tag = 0;
+            AIEmpiresGame.ValueChanged += OnGameValueChanged;
+            AIEmpiresGame.MouseLeave += OnLeave;
+            AIEmpiresGame.GotFocus += OnFocus;
+            // 
+            // tableLayoutPanel6
+            // 
+            resources.ApplyResources(tableLayoutPanel6, "tableLayoutPanel6");
+            tableLayoutPanel6.Controls.Add(fallenEmpiresRandomGame, 1, 0);
+            tableLayoutPanel6.Controls.Add(fallenEmpiresGame, 0, 0);
+            tableLayoutPanel6.Name = "tableLayoutPanel6";
+            // 
+            // fallenEmpiresRandomGame
+            // 
+            resources.ApplyResources(fallenEmpiresRandomGame, "fallenEmpiresRandomGame");
+            fallenEmpiresRandomGame.Name = "fallenEmpiresRandomGame";
+            fallenEmpiresRandomGame.Tag = 0;
+            fallenEmpiresRandomGame.UseVisualStyleBackColor = true;
+            fallenEmpiresRandomGame.CheckedChanged += OnGameValueChanged;
+            // 
+            // fallenEmpiresGame
+            // 
+            resources.ApplyResources(fallenEmpiresGame, "fallenEmpiresGame");
+            fallenEmpiresGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            fallenEmpiresGame.Name = "fallenEmpiresGame";
+            fallenEmpiresGame.Tag = 0;
+            fallenEmpiresGame.ValueChanged += OnGameValueChanged;
+            fallenEmpiresGame.MouseLeave += OnLeave;
+            fallenEmpiresGame.GotFocus += OnFocus;
+            // 
+            // tableLayoutPanel5
+            // 
+            resources.ApplyResources(tableLayoutPanel5, "tableLayoutPanel5");
+            tableLayoutPanel5.Controls.Add(fallenEmpiresRandomSet, 1, 0);
+            tableLayoutPanel5.Controls.Add(fallenEmpiresSet, 0, 0);
+            tableLayoutPanel5.Name = "tableLayoutPanel5";
+            // 
+            // fallenEmpiresRandomSet
+            // 
+            resources.ApplyResources(fallenEmpiresRandomSet, "fallenEmpiresRandomSet");
+            fallenEmpiresRandomSet.Name = "fallenEmpiresRandomSet";
+            fallenEmpiresRandomSet.Tag = 0;
+            fallenEmpiresRandomSet.UseVisualStyleBackColor = true;
+            fallenEmpiresRandomSet.CheckedChanged += OnSetValueChanged;
+            // 
+            // fallenEmpiresSet
+            // 
+            resources.ApplyResources(fallenEmpiresSet, "fallenEmpiresSet");
+            fallenEmpiresSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            fallenEmpiresSet.Name = "fallenEmpiresSet";
+            fallenEmpiresSet.Tag = 0;
+            fallenEmpiresSet.ValueChanged += OnSetValueChanged;
+            // 
+            // tableLayoutPanel7
+            // 
+            resources.ApplyResources(tableLayoutPanel7, "tableLayoutPanel7");
+            tableLayoutPanel7.Controls.Add(marauderEmpiresRandomGame, 1, 0);
+            tableLayoutPanel7.Controls.Add(marauderEmpiresGame, 0, 0);
+            tableLayoutPanel7.Name = "tableLayoutPanel7";
+            // 
+            // marauderEmpiresRandomGame
+            // 
+            resources.ApplyResources(marauderEmpiresRandomGame, "marauderEmpiresRandomGame");
+            marauderEmpiresRandomGame.Name = "marauderEmpiresRandomGame";
+            marauderEmpiresRandomGame.Tag = 0;
+            marauderEmpiresRandomGame.UseVisualStyleBackColor = true;
+            marauderEmpiresRandomGame.CheckedChanged += OnGameValueChanged;
+            // 
+            // marauderEmpiresGame
+            // 
+            resources.ApplyResources(marauderEmpiresGame, "marauderEmpiresGame");
+            marauderEmpiresGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            marauderEmpiresGame.Name = "marauderEmpiresGame";
+            marauderEmpiresGame.Tag = 0;
+            marauderEmpiresGame.ValueChanged += OnGameValueChanged;
+            marauderEmpiresGame.MouseLeave += OnLeave;
+            marauderEmpiresGame.GotFocus += OnFocus;
+            // 
+            // tableLayoutPanel8
+            // 
+            resources.ApplyResources(tableLayoutPanel8, "tableLayoutPanel8");
+            tableLayoutPanel8.Controls.Add(marauderEmpiresRandomSet, 1, 0);
+            tableLayoutPanel8.Controls.Add(marauderEmpiresSet, 0, 0);
+            tableLayoutPanel8.Name = "tableLayoutPanel8";
+            // 
+            // marauderEmpiresRandomSet
+            // 
+            resources.ApplyResources(marauderEmpiresRandomSet, "marauderEmpiresRandomSet");
+            marauderEmpiresRandomSet.Name = "marauderEmpiresRandomSet";
+            marauderEmpiresRandomSet.Tag = 0;
+            marauderEmpiresRandomSet.UseVisualStyleBackColor = true;
+            marauderEmpiresRandomSet.CheckedChanged += OnSetValueChanged;
+            // 
+            // marauderEmpiresSet
+            // 
+            resources.ApplyResources(marauderEmpiresSet, "marauderEmpiresSet");
+            marauderEmpiresSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            marauderEmpiresSet.Name = "marauderEmpiresSet";
+            marauderEmpiresSet.Tag = 0;
+            marauderEmpiresSet.ValueChanged += OnSetValueChanged;
+            // 
             // lobbyManager
             // 
             resources.ApplyResources(this, "$this");
@@ -2082,22 +2228,38 @@ namespace Stellaris_Lobby_Manager
             controlsPanel.PerformLayout();
             settingsColRight.ResumeLayout(false);
             settingsColRight.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)AIEmpiresGame).EndInit();
-            ((System.ComponentModel.ISupportInitialize)advancedAIStartsGame).EndInit();
             ((System.ComponentModel.ISupportInitialize)crisisStrengthGame).EndInit();
-            ((System.ComponentModel.ISupportInitialize)fallenEmpiresGame).EndInit();
-            ((System.ComponentModel.ISupportInitialize)marauderEmpiresGame).EndInit();
             ((System.ComponentModel.ISupportInitialize)midGameStartYearGame).EndInit();
             ((System.ComponentModel.ISupportInitialize)endGameStartYearGame).EndInit();
             ((System.ComponentModel.ISupportInitialize)endGameStartYearSet).EndInit();
             ((System.ComponentModel.ISupportInitialize)midGameStartYearSet).EndInit();
             ((System.ComponentModel.ISupportInitialize)crisisStrengthSet).EndInit();
-            ((System.ComponentModel.ISupportInitialize)marauderEmpiresSet).EndInit();
-            ((System.ComponentModel.ISupportInitialize)fallenEmpiresSet).EndInit();
-            ((System.ComponentModel.ISupportInitialize)advancedAIStartsSet).EndInit();
-            ((System.ComponentModel.ISupportInitialize)AIEmpiresSet).EndInit();
             ((System.ComponentModel.ISupportInitialize)victoryYearGame).EndInit();
             ((System.ComponentModel.ISupportInitialize)victoryYearSet).EndInit();
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)AIEmpiresSet).EndInit();
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)advancedAIStartsGame).EndInit();
+            tableLayoutPanel4.ResumeLayout(false);
+            tableLayoutPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)advancedAIStartsSet).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)AIEmpiresGame).EndInit();
+            tableLayoutPanel6.ResumeLayout(false);
+            tableLayoutPanel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)fallenEmpiresGame).EndInit();
+            tableLayoutPanel5.ResumeLayout(false);
+            tableLayoutPanel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)fallenEmpiresSet).EndInit();
+            tableLayoutPanel7.ResumeLayout(false);
+            tableLayoutPanel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)marauderEmpiresGame).EndInit();
+            tableLayoutPanel8.ResumeLayout(false);
+            tableLayoutPanel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)marauderEmpiresSet).EndInit();
             ((System.ComponentModel.ISupportInitialize)lobbySettingsBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -2316,5 +2478,21 @@ namespace Stellaris_Lobby_Manager
         private Button endGameStartYearControl;
         private Button victoryYearControl;
         private Button ironmanModeControl;
+        private TableLayoutPanel tableLayoutPanel1;
+        private CheckBox AIEmpiresRandomGame;
+        private TableLayoutPanel tableLayoutPanel3;
+        private CheckBox AIEmpiresRandomSet;
+        private TableLayoutPanel tableLayoutPanel2;
+        private CheckBox advancedAIStartsRandomGame;
+        private TableLayoutPanel tableLayoutPanel4;
+        private CheckBox advancedAIStartsRandomSet;
+        private TableLayoutPanel tableLayoutPanel6;
+        private CheckBox fallenEmpiresRandomGame;
+        private TableLayoutPanel tableLayoutPanel5;
+        private CheckBox fallenEmpiresRandomSet;
+        private TableLayoutPanel tableLayoutPanel7;
+        private CheckBox marauderEmpiresRandomGame;
+        private TableLayoutPanel tableLayoutPanel8;
+        private CheckBox marauderEmpiresRandomSet;
     }
 }
