@@ -441,7 +441,6 @@ namespace Stellaris_Lobby_Manager
              * ->   stellaris.exe+F0E4A4 - 48 8B 07              - mov rax,[rdi]
              * stellaris.exe+F0E4A7 - 48 8B CF              - mov rcx,rdi
              */
-
             List<string> shapeList = new List<string>();
             // just assume galaxyShape doesn't share same keyword with galaxySize
             for (int i = 0; i < maxShapeCount; i++)
@@ -689,20 +688,21 @@ namespace Stellaris_Lobby_Manager
             /// </summary>
             SetControlValue(item, false, item.Value);
 
+            var btn = (Button)GetControl(item.Name + "Control");
             if (Controls.Find(item.Name + "Control", true).Length == 0) return;
 
             if (item.IsLocked)
             {
                 SetControlValue(item, true, item.Value);
-                SwitchControlButton((Button)GetControl(item.Name + "Control"), 1);
+                SwitchControlButton(btn, 1);
             }
             else if (item.IsSkipped)
             {
-                SwitchControlButton((Button)GetControl(item.Name + "Control"), 2);
+                SwitchControlButton(btn, 2);
             }
             else
             {
-                SwitchControlButton((Button)GetControl(item.Name + "Control"), 0);
+                SwitchControlButton(btn, 0);
             }
         }
 
@@ -808,10 +808,9 @@ namespace Stellaris_Lobby_Manager
 
         private void LobbyLibrary_DoubleClick(object sender, EventArgs e)
         {
-            Debug.WriteLine("lobbyLibrary_DoubleClick");
             if (lobbyLibrary.SelectedItem != null)
             {
-                Debug.WriteLine(lobbyLibrary.SelectedItem.ToString());
+                Debug.WriteLine("Loaded config: " + lobbyLibrary.SelectedItem.ToString());
                 MapSettings(AppdataFile(lobbyLibrary.SelectedItem.ToString() + ".json"));
                 currentLobby.Text = lobbyLibrary.SelectedItem.ToString();
                 LobbyModifiedChanged(false);
