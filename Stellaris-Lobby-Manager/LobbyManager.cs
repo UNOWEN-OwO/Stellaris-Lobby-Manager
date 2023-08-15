@@ -220,7 +220,10 @@ namespace Stellaris_Lobby_Manager
             _InitializeComponent();
             GenerateDefaultGalaxySettings();
             if (stellarisProcess != null)
+            {
                 GenerateGalaxySettings();
+                _ToggleOverflow(Properties.Settings.Default.canOverflow);
+            }
             foreach (SettingItem item in lobbySettings.Values)
             {
                 SetControlButton(item);

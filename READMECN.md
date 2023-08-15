@@ -11,15 +11,19 @@
 - 可以超出游戏默认的跨度和上下限，允许设置到游戏内允许的最精确值
 - 可锁定或忽略设置
 - 自动检测游戏启动/退出（用完还是关掉吧）
+- 支持对于增加星系大小和形状的Mod
 
-![Screenshot 2023-08-13 001739](https://github.com/UNOWEN-OwO/Stellaris-Lobby-Manager/assets/41463621/3db6dcf0-054a-46f3-be7f-059cc575f7fe)
-<p align="center"><font size="2">到处是虫洞</font></p>
+![Screenshot 2023-08-15 161854](https://github.com/UNOWEN-OwO/Stellaris-Lobby-Manager/assets/41463621/07168861-1e47-4ed4-9a35-12cbf43228db)
+
 
 ## 使用方法
 - 左列为当前游戏设置，右列为载入的配置，使用箭头将单个设置应用或者记录，或使用主按钮对所有设置进行操作
 - 中间按钮为锁定/忽略/无动作按钮，点击切换。锁定将始终应用配置，忽略将应用配置，但可以正常记录
 - 在最大精度下，可以以游戏内最小单位修改游戏设置，可以切换成群星的默认精度
 - 溢出将禁用群星的溢出修正（在游戏创建时生效），此选项不提供对管理器中的数据上下限检查
+
+![Screenshot 2023-08-13 001739](https://github.com/UNOWEN-OwO/Stellaris-Lobby-Manager/assets/41463621/3db6dcf0-054a-46f3-be7f-059cc575f7fe)
+<p align="center"><font size="2">到处是虫洞</font></p>
 
 ## 动机
 - 想要600星5个堕落，但是懒得装mod
