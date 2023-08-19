@@ -1551,6 +1551,7 @@ namespace Stellaris_Lobby_Manager
             resources.ApplyResources(midGameStartYearGame, "midGameStartYearGame");
             midGameStartYearGame.Increment = new decimal(new int[] { 25, 0, 0, 0 });
             midGameStartYearGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            midGameStartYearGame.Minimum = new decimal(new int[] { int.MaxValue, 0, 0, int.MinValue });
             midGameStartYearGame.Name = "midGameStartYearGame";
             midGameStartYearGame.Tag = 0;
             midGameStartYearGame.ValueChanged += OnGameValueChanged;
@@ -1562,6 +1563,7 @@ namespace Stellaris_Lobby_Manager
             resources.ApplyResources(endGameStartYearGame, "endGameStartYearGame");
             endGameStartYearGame.Increment = new decimal(new int[] { 25, 0, 0, 0 });
             endGameStartYearGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            endGameStartYearGame.Minimum = new decimal(new int[] { int.MaxValue, 0, 0, int.MinValue });
             endGameStartYearGame.Name = "endGameStartYearGame";
             endGameStartYearGame.Tag = 0;
             endGameStartYearGame.ValueChanged += OnGameValueChanged;
@@ -1605,6 +1607,7 @@ namespace Stellaris_Lobby_Manager
             resources.ApplyResources(endGameStartYearSet, "endGameStartYearSet");
             endGameStartYearSet.Increment = new decimal(new int[] { 25, 0, 0, 0 });
             endGameStartYearSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            endGameStartYearSet.Minimum = new decimal(new int[] { int.MaxValue, 0, 0, int.MinValue });
             endGameStartYearSet.Name = "endGameStartYearSet";
             endGameStartYearSet.Tag = 0;
             endGameStartYearSet.ValueChanged += OnSetValueChanged;
@@ -1614,6 +1617,7 @@ namespace Stellaris_Lobby_Manager
             resources.ApplyResources(midGameStartYearSet, "midGameStartYearSet");
             midGameStartYearSet.Increment = new decimal(new int[] { 25, 0, 0, 0 });
             midGameStartYearSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            midGameStartYearSet.Minimum = new decimal(new int[] { int.MaxValue, 0, 0, int.MinValue });
             midGameStartYearSet.Name = "midGameStartYearSet";
             midGameStartYearSet.Tag = 0;
             midGameStartYearSet.ValueChanged += OnSetValueChanged;
@@ -1681,6 +1685,7 @@ namespace Stellaris_Lobby_Manager
             resources.ApplyResources(victoryYearGame, "victoryYearGame");
             victoryYearGame.Increment = new decimal(new int[] { 25, 0, 0, 0 });
             victoryYearGame.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            victoryYearGame.Minimum = new decimal(new int[] { int.MaxValue, 0, 0, int.MinValue });
             victoryYearGame.Name = "victoryYearGame";
             victoryYearGame.Tag = 0;
             victoryYearGame.ValueChanged += OnGameValueChanged;
@@ -1692,6 +1697,7 @@ namespace Stellaris_Lobby_Manager
             resources.ApplyResources(victoryYearSet, "victoryYearSet");
             victoryYearSet.Increment = new decimal(new int[] { 25, 0, 0, 0 });
             victoryYearSet.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            victoryYearSet.Minimum = new decimal(new int[] { int.MaxValue, 0, 0, int.MinValue });
             victoryYearSet.Name = "victoryYearSet";
             victoryYearSet.Tag = 0;
             victoryYearSet.ValueChanged += OnSetValueChanged;
