@@ -260,6 +260,8 @@ namespace Stellaris_Lobby_Manager
             marauderEmpiresRandomSet = new CheckBox();
             marauderEmpiresSet = new NumericUpDown();
             lobbySettingsBindingSource = new BindingSource(components);
+            panel1 = new Panel();
+            info = new Label();
             menuStrip.SuspendLayout();
             tableLayoutPanel.SuspendLayout();
             settingsColLeft.SuspendLayout();
@@ -308,12 +310,13 @@ namespace Stellaris_Lobby_Manager
             tableLayoutPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)marauderEmpiresSet).BeginInit();
             ((System.ComponentModel.ISupportInitialize)lobbySettingsBindingSource).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip
             // 
-            menuStrip.Items.AddRange(new ToolStripItem[] { settingsToolStripMenuItem, otherToolStripMenuItem });
             resources.ApplyResources(menuStrip, "menuStrip");
+            menuStrip.Items.AddRange(new ToolStripItem[] { settingsToolStripMenuItem, otherToolStripMenuItem });
             menuStrip.Name = "menuStrip";
             // 
             // settingsToolStripMenuItem
@@ -2211,12 +2214,25 @@ namespace Stellaris_Lobby_Manager
             marauderEmpiresSet.Tag = 0;
             marauderEmpiresSet.ValueChanged += OnSetValueChanged;
             // 
+            // panel1
+            // 
+            panel1.Controls.Add(info);
+            panel1.Controls.Add(menuStrip);
+            resources.ApplyResources(panel1, "panel1");
+            panel1.Name = "panel1";
+            // 
+            // info
+            // 
+            resources.ApplyResources(info, "info");
+            info.BackColor = Color.FromArgb(250, 250, 250);
+            info.Name = "info";
+            // 
             // lobbyManager
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(panel1);
             Controls.Add(tableLayoutPanel);
-            Controls.Add(menuStrip);
             MainMenuStrip = menuStrip;
             Name = "lobbyManager";
             menuStrip.ResumeLayout(false);
@@ -2279,8 +2295,9 @@ namespace Stellaris_Lobby_Manager
             tableLayoutPanel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)marauderEmpiresSet).EndInit();
             ((System.ComponentModel.ISupportInitialize)lobbySettingsBindingSource).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -2513,5 +2530,7 @@ namespace Stellaris_Lobby_Manager
         private TableLayoutPanel tableLayoutPanel8;
         private CheckBox marauderEmpiresRandomSet;
         private Button importButton;
+        private Panel panel1;
+        private Label info;
     }
 }

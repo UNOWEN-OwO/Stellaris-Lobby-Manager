@@ -63,90 +63,90 @@ namespace Stellaris_Lobby_Manager {
         /// <summary>
         ///   查找类似 Barred Spiral 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_bar {
+        internal static string galaxyShape_en_bar {
             get {
-                return ResourceManager.GetString("galaxyShape.bar", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.bar", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Cartwhell 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_cartwheel {
+        internal static string galaxyShape_en_cartwheel {
             get {
-                return ResourceManager.GetString("galaxyShape.cartwheel", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.cartwheel", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Elliptical 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_elliptical {
+        internal static string galaxyShape_en_elliptical {
             get {
-                return ResourceManager.GetString("galaxyShape.elliptical", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.elliptical", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Ring 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_ring {
+        internal static string galaxyShape_en_ring {
             get {
-                return ResourceManager.GetString("galaxyShape.ring", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.ring", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Spiral (2 Arms) 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_spiral_2 {
+        internal static string galaxyShape_en_spiral_2 {
             get {
-                return ResourceManager.GetString("galaxyShape.spiral_2", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.spiral_2", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Spiral (3 Arms) 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_spiral_3 {
+        internal static string galaxyShape_en_spiral_3 {
             get {
-                return ResourceManager.GetString("galaxyShape.spiral_3", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.spiral_3", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Spiral (4 Arms) 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_spiral_4 {
+        internal static string galaxyShape_en_spiral_4 {
             get {
-                return ResourceManager.GetString("galaxyShape.spiral_4", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.spiral_4", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Spiral (6 Arms) 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_spiral_6 {
+        internal static string galaxyShape_en_spiral_6 {
             get {
-                return ResourceManager.GetString("galaxyShape.spiral_6", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.spiral_6", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Spoked 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_spoked {
+        internal static string galaxyShape_en_spoked {
             get {
-                return ResourceManager.GetString("galaxyShape.spoked", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.spoked", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Starburst 的本地化字符串。
         /// </summary>
-        internal static string galaxyShape_starburst {
+        internal static string galaxyShape_en_starburst {
             get {
-                return ResourceManager.GetString("galaxyShape.starburst", resourceCulture);
+                return ResourceManager.GetString("galaxyShape.en.starburst", resourceCulture);
             }
         }
         
@@ -243,45 +243,45 @@ namespace Stellaris_Lobby_Manager {
         /// <summary>
         ///   查找类似 Huge (1000 Stars) 的本地化字符串。
         /// </summary>
-        internal static string galaxySize_huge {
+        internal static string galaxySize_en_huge {
             get {
-                return ResourceManager.GetString("galaxySize.huge", resourceCulture);
+                return ResourceManager.GetString("galaxySize.en.huge", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Large (800 Stars) 的本地化字符串。
         /// </summary>
-        internal static string galaxySize_large {
+        internal static string galaxySize_en_large {
             get {
-                return ResourceManager.GetString("galaxySize.large", resourceCulture);
+                return ResourceManager.GetString("galaxySize.en.large", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Medium (600 Stars) 的本地化字符串。
         /// </summary>
-        internal static string galaxySize_medium {
+        internal static string galaxySize_en_medium {
             get {
-                return ResourceManager.GetString("galaxySize.medium", resourceCulture);
+                return ResourceManager.GetString("galaxySize.en.medium", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Small (400 Stars) 的本地化字符串。
         /// </summary>
-        internal static string galaxySize_small {
+        internal static string galaxySize_en_small {
             get {
-                return ResourceManager.GetString("galaxySize.small", resourceCulture);
+                return ResourceManager.GetString("galaxySize.en.small", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似 Tiny (200 Stars) 的本地化字符串。
         /// </summary>
-        internal static string galaxySize_tiny {
+        internal static string galaxySize_en_tiny {
             get {
-                return ResourceManager.GetString("galaxySize.tiny", resourceCulture);
+                return ResourceManager.GetString("galaxySize.en.tiny", resourceCulture);
             }
         }
         
@@ -327,6 +327,96 @@ namespace Stellaris_Lobby_Manager {
         internal static string galaxySize_zh_tiny {
             get {
                 return ResourceManager.GetString("galaxySize.zh.tiny", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Config error ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_en_configError {
+            get {
+                return ResourceManager.GetString("info.en.configError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Galaxy list fetch error ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_en_galaxyError {
+            get {
+                return ResourceManager.GetString("info.en.galaxyError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Stellaris.exe Not Found ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_en_gameNotFound {
+            get {
+                return ResourceManager.GetString("info.en.gameNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Game lobby not found ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_en_lobbyNotFound {
+            get {
+                return ResourceManager.GetString("info.en.lobbyNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ✔️ 的本地化字符串。
+        /// </summary>
+        internal static string info_en_noError {
+            get {
+                return ResourceManager.GetString("info.en.noError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 设置错误 ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_zh_configError {
+            get {
+                return ResourceManager.GetString("info.zh.configError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 星系设定列表获取错误 ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_zh_galaxyError {
+            get {
+                return ResourceManager.GetString("info.zh.galaxyError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 未发现 Stellaris.exe ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_zh_gameNotFound {
+            get {
+                return ResourceManager.GetString("info.zh.gameNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 游戏大厅未找到 ❌ 的本地化字符串。
+        /// </summary>
+        internal static string info_zh_lobbyNotFound {
+            get {
+                return ResourceManager.GetString("info.zh.lobbyNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ✔️ 的本地化字符串。
+        /// </summary>
+        internal static string info_zh_noError {
+            get {
+                return ResourceManager.GetString("info.zh.noError", resourceCulture);
             }
         }
     }

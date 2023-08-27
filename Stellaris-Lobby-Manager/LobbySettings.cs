@@ -77,6 +77,15 @@ namespace Stellaris_Lobby_Manager
         public CheckSettingItem() { ValueType = typeof(bool); }
     }
 
+    public enum GameStatus
+    {
+        noError = 0,
+        gameNotFound = 1,
+        lobbyNotFound = 2,
+        galaxyError = 3,
+        configError = 4,
+    }
+
     public class LobbySettings
     {
         public static readonly List<string> GalaxySizeSrc = new() { "tiny", "small", "medium", "large", "huge" };

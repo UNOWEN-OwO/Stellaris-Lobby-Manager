@@ -23,6 +23,13 @@ A desktop app that manage and configures stellaris lobby settings.
 ![Screenshot 2023-08-13 001739](https://github.com/UNOWEN-OwO/Stellaris-Lobby-Manager/assets/41463621/3db6dcf0-054a-46f3-be7f-059cc575f7fe)
 <p align="center"><font size="2">wormholes everywhere</font></p>
 
+## Supported Game Version
+- 3.9.0 Open Beta
+- 3.8.4
+- 3.8.3
+
+\* Theoratically by updating `offsets.json`, the app should work on any game version unless there is game config difference, you can also update this file by yourself with exe's timestamp as version key.
+
 ## Why?
 - All starts from that game where I want 5 fallen empire at small sized map but too lazy to find a mod
 

@@ -38,8 +38,9 @@ namespace Stellaris_Lobby_Manager
             var offset = (NumericUpDown)sender;
             if ((int)offset.Tag == 0)
             {
-                Properties.Settings.Default.Save();
+                Debug.WriteLine(offset.Name + " " + offset.Value);
                 Properties.Settings.Default[offset.Name] = (int)offset.Value;
+                Properties.Settings.Default.Save();
             }
         }
     }

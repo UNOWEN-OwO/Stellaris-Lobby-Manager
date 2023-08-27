@@ -87,10 +87,22 @@ namespace Stellaris_Lobby_Manager
                         lobbyAddress = lobbyBase = IntPtr.Zero;
                     };
                     gameBase = MemoryHelper.GetModuleBaseAddress(stellarisProcess, "stellaris.exe");
+                    MatchOffset();
                     _ToggleOverflow(Properties.Settings.Default.canOverflow);
 
-                    while (stellarisProcess != null)
+                    int offset1 = Properties.Settings.Default.lobbyOffset1;
+
+                    while (stellarisProcess != null && offset1 == Properties.Settings.Default.lobbyOffset1)
                     {
+
+                        /* Write galaxy size
+                         * stellaris.exe+164E2C - 48 8D 71 10           - lea rsi,[rcx+10]
+                         * stellaris.exe+164E30 - 48 8D 7A 10           - lea rdi,[rdx+10]
+                         * ->   stellaris.exe+164E34 - 48 89 41 08           - mov [rcx+08],rax
+                         * stellaris.exe+164E38 - 48 3B F7              - cmp rsi,rdi
+                         * stellaris.exe+164E3B - 0F84 BD000000         - je stellaris.exe+164EFE
+                         */
+
                         if ((lobbyBase = MemoryHelper.Read<IntPtr>(stellarisProcess, gameBase +
                             // 0x2772368
                             Properties.Settings.Default.lobbyOffset1)) == IntPtr.Zero)
@@ -126,6 +138,32 @@ namespace Stellaris_Lobby_Manager
                     }
                 }
                 Thread.Sleep(10000);
+            }
+        }
+
+        private void MatchOffset()
+        {
+            if (stellarisProcess == null)
+                return;
+
+            // check current path
+            if (File.Exists("offsets.json"))
+            {
+                // get game timestamp
+                string timestamp = MemoryHelper.Read<int>(stellarisProcess, gameBase + MemoryHelper.Read<int>(stellarisProcess, gameBase + 0x3C) + 0x8).ToString();
+                // load offsets from file
+                var offsets = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, int>>>(File.ReadAllText("offsets.json"));
+                // check if offsets match
+                if (offsets != null && offsets.ContainsKey(timestamp))
+                {
+                    // load offsets
+                    foreach (var item in offsets[timestamp])
+                    {
+                        Properties.Settings.Default[item.Key] = item.Value;
+                    }
+                    Properties.Settings.Default.Save();
+                    return;
+                }
             }
         }
 
@@ -219,11 +257,7 @@ namespace Stellaris_Lobby_Manager
             Controls.Clear();
             _InitializeComponent();
             GenerateDefaultGalaxySettings();
-            if (stellarisProcess != null)
-            {
-                GenerateGalaxySettings();
-                _ToggleOverflow(Properties.Settings.Default.canOverflow);
-            }
+
             foreach (SettingItem item in lobbySettings.Values)
             {
                 SetControlButton(item);
@@ -253,7 +287,7 @@ namespace Stellaris_Lobby_Manager
                 }
                 else if (item is SelectSettingItem || item is GalaxySettingItem)
                 {
-                    ((ComboBox)control).SelectedIndex = Convert.ToInt32(value);
+                    ((ComboBox)control).SelectedIndex = ((ComboBox)control).Items.Count <= Convert.ToInt32(value) ? -1 : Convert.ToInt32(value);
                 }
                 else if (item is PreciseNumericSettingItem)
                 {
@@ -384,11 +418,11 @@ namespace Stellaris_Lobby_Manager
             galaxyShapeDefault.Clear();
             foreach (string name in LobbySettings.GalaxySizeSrc)
             {
-                galaxySizeDefault[name] = resxSet.GetString($"galaxySize.{currentCulture.Name + '.'}{name}") ?? resxSet.GetString($"galaxySize.{name}") ?? name;
+                galaxySizeDefault[name] = resxSet.GetString($"galaxySize.{currentCulture.Name}.{name}") ?? resxSet.GetString($"galaxySize.{name}") ?? name;
             }
             foreach (string name in LobbySettings.GalaxyShapeSrc)
             {
-                galaxyShapeDefault[name] = resxSet.GetString($"galaxyShape.{currentCulture.Name + '.'}{name}") ?? resxSet.GetString($"galaxyShape.{name}") ?? name;
+                galaxyShapeDefault[name] = resxSet.GetString($"galaxyShape.{currentCulture.Name}.{name}") ?? resxSet.GetString($"galaxyShape.{name}") ?? name;
             }
 
             galaxySizeGame.Items.AddRange(galaxySizeDefault.Values.ToArray());
@@ -404,13 +438,13 @@ namespace Stellaris_Lobby_Manager
             GalaxySettingItem galaxySize = (GalaxySettingItem)lobbySettings["galaxySize"];
             GalaxySettingItem galaxyShape = (GalaxySettingItem)lobbySettings["galaxyShape"];
 
-            galaxySize.Options.Clear();
-            galaxyShape.Options.Clear();
-
-            galaxySizeGame.Items.Clear();
-            galaxySizeSet.Items.Clear();
-            galaxyShapeGame.Items.Clear();
-            galaxyShapeSet.Items.Clear();
+            /* Galaxy Size Offset2
+             * stellaris.exe+F0DBBE - 48 8B B8 C8080000     - mov rdi,[rax+000008C8]
+             * stellaris.exe+F0DBC5 - 48 8B 05 8C2C9801     - mov rax,[stellaris.exe+2890858] { (2386EDFFD10) }
+             * ->   stellaris.exe+F0DBCC - 48 8B 48 18           - mov rcx,[rax+18]
+             * stellaris.exe+F0DBD0 - 48 63 40 24           - movsxd  rax,dword ptr [rax+24]
+             * stellaris.exe+F0DBD4 - 48 8D 14 C1           - lea rdx,[rcx+rax*8]
+             */
 
             IntPtr _sizeBase = MemoryHelper.Read<IntPtr>(stellarisProcess,
                                MemoryHelper.GetModuleBaseAddress(stellarisProcess, "stellaris.exe") +
@@ -420,13 +454,22 @@ namespace Stellaris_Lobby_Manager
                               // 0x18
                               Properties.Settings.Default.sizeOffset2);
 
-            /* Galaxy Size Offset2
-             * stellaris.exe+F0DBBE - 48 8B B8 C8080000     - mov rdi,[rax+000008C8]
-             * stellaris.exe+F0DBC5 - 48 8B 05 8C2C9801     - mov rax,[stellaris.exe+2890858] { (2386EDFFD10) }
-             * ->   stellaris.exe+F0DBCC - 48 8B 48 18           - mov rcx,[rax+18]
-             * stellaris.exe+F0DBD0 - 48 63 40 24           - movsxd  rax,dword ptr [rax+24]
-             * stellaris.exe+F0DBD4 - 48 8D 14 C1           - lea rdx,[rcx+rax*8]
-             */
+            int sizeCount = MemoryHelper.Read<int>(stellarisProcess, _sizeBase + Properties.Settings.Default.sizeCountOffset);
+
+            if (sizeCount <= 0 || sizeCount > 30)
+            {
+                Debug.WriteLine("Invalid galaxy size count");
+                return;
+            }
+
+            galaxySize.Options.Clear();
+            galaxyShape.Options.Clear();
+
+            galaxySizeGame.Items.Clear();
+            galaxySizeSet.Items.Clear();
+            galaxyShapeGame.Items.Clear();
+            galaxyShapeSet.Items.Clear();
+
             List<string> sizeList = new List<string>();
             int maxShapeIdx = 0, maxShapeCount = 0;
             // 0x24
@@ -958,7 +1001,7 @@ namespace Stellaris_Lobby_Manager
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Stellaris Lobby Manager v1.0 Made by @UNOWEN-OwO\nhttps://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager\nVisit Github page?", "About", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            DialogResult dialogResult = MessageBox.Show("Stellaris Lobby Manager v1.1 Made by @UNOWEN-OwO\nhttps://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager\nVisit Github page?", "About", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (dialogResult == DialogResult.OK)
             {
                 Process.Start(new ProcessStartInfo("https://github.com/UNOWEN-OwO/Setllaris-Lobby-Manager") { UseShellExecute = true });
@@ -967,6 +1010,7 @@ namespace Stellaris_Lobby_Manager
 
         private void offsetToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            _ToggleOverflow(false);
             var offsetForm = new OffsetSetter();
             offsetForm.Show();
             offsetForm.FormClosed += OffsetForm_FormClosed;
@@ -974,7 +1018,15 @@ namespace Stellaris_Lobby_Manager
 
         private void OffsetForm_FormClosed(object sender, FormClosedEventArgs e)
         {
+            lobbyAddress = IntPtr.Zero;
             ReloadApp();
+        }
+
+        private void ChangeGameStatus(GameStatus status)
+        {
+            CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
+            ComponentResourceManager resxSet = new ComponentResourceManager(typeof(Res));
+            info.Text = resxSet.GetString($"info.{currentCulture.Name}.{status}");
         }
     }
 }

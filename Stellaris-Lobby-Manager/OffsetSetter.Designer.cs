@@ -112,6 +112,8 @@
             lobbyOffset1.Name = "lobbyOffset1";
             lobbyOffset1.Size = new Size(111, 23);
             lobbyOffset1.TabIndex = 1;
+            lobbyOffset1.Tag = 0;
+            lobbyOffset1.ValueChanged += OnOffsetEdit;
             // 
             // lobbyOffset2
             // 
@@ -122,6 +124,8 @@
             lobbyOffset2.Name = "lobbyOffset2";
             lobbyOffset2.Size = new Size(111, 23);
             lobbyOffset2.TabIndex = 1;
+            lobbyOffset2.Tag = 0;
+            lobbyOffset2.ValueChanged += OnOffsetEdit;
             // 
             // sizeOffset1
             // 
@@ -132,6 +136,8 @@
             sizeOffset1.Name = "sizeOffset1";
             sizeOffset1.Size = new Size(111, 23);
             sizeOffset1.TabIndex = 1;
+            sizeOffset1.Tag = 0;
+            sizeOffset1.ValueChanged += OnOffsetEdit;
             // 
             // sizeOffset2
             // 
@@ -142,6 +148,8 @@
             sizeOffset2.Name = "sizeOffset2";
             sizeOffset2.Size = new Size(111, 23);
             sizeOffset2.TabIndex = 1;
+            sizeOffset2.Tag = 0;
+            sizeOffset2.ValueChanged += OnOffsetEdit;
             // 
             // sizeCountOffset
             // 
