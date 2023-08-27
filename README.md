@@ -41,3 +41,6 @@ A desktop app that manage and configures stellaris lobby settings.
 - Non host player will not able to see setting changes made from this app, please notify them :)
 - Any setting that exceed the game limit might cause unexpected behavior, too low/high value might casuing game stuck at loading, crashing or configuration not apply at all, use at your own risk
 - There is a high chance that this tool will break after main game version update, fix might take some time
+
+## License
+[MIT](LICENSE) © UNOWEN-OwO
