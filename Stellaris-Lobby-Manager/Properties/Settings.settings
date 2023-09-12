@@ -12,16 +12,16 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="lobbyOffset1" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">41362280</Value>
+      <Value Profile="(Default)">41335544</Value>
     </Setting>
     <Setting Name="lobbyOffset2" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">2248</Value>
+      <Value Profile="(Default)">2304</Value>
     </Setting>
     <Setting Name="fullPrecision" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="sizeOffset1" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">42535000</Value>
+      <Value Profile="(Default)">42508600</Value>
     </Setting>
     <Setting Name="sizeOffset2" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">24</Value>
@@ -39,10 +39,13 @@
       <Value Profile="(Default)">16</Value>
     </Setting>
     <Setting Name="overflowOffset" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1515366</Value>
+      <Value Profile="(Default)">1514601</Value>
     </Setting>
     <Setting Name="canOverflow" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="overflowJump" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">194</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -24,7 +24,7 @@ A desktop app that manage and configures stellaris lobby settings.
 <p align="center"><font size="2">wormholes everywhere</font></p>
 
 ## Supported Game Version
-- 3.9.0 Open Beta
+- 3.9.0
 - 3.8.4
 - 3.8.3
 

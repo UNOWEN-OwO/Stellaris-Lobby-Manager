@@ -29,13 +29,6 @@
         private void InitializeComponent()
         {
             offsetPanel = new TableLayoutPanel();
-            lobbyOffset1 = new NumericUpDown();
-            lobbyOffset2 = new NumericUpDown();
-            sizeOffset1 = new NumericUpDown();
-            sizeOffset2 = new NumericUpDown();
-            sizeCountOffset = new NumericUpDown();
-            sizeStringOffset = new NumericUpDown();
-            shapeOffset = new NumericUpDown();
             overflowOffsetDesc = new Label();
             shapeStringOffsetDesc = new Label();
             shapeOffsetDesc = new Label();
@@ -47,18 +40,25 @@
             lobbyOffset1Desc = new Label();
             overflowOffset = new NumericUpDown();
             shapeStringOffset = new NumericUpDown();
+            shapeOffset = new NumericUpDown();
+            sizeStringOffset = new NumericUpDown();
+            sizeCountOffset = new NumericUpDown();
+            sizeOffset2 = new NumericUpDown();
+            sizeOffset1 = new NumericUpDown();
+            lobbyOffset2 = new NumericUpDown();
+            lobbyOffset1 = new NumericUpDown();
             panel1 = new Panel();
             OffsetWarn = new Label();
             offsetPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)lobbyOffset1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)lobbyOffset2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)sizeOffset1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)sizeOffset2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)sizeCountOffset).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)sizeStringOffset).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)shapeOffset).BeginInit();
             ((System.ComponentModel.ISupportInitialize)overflowOffset).BeginInit();
             ((System.ComponentModel.ISupportInitialize)shapeStringOffset).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)shapeOffset).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sizeStringOffset).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sizeCountOffset).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sizeOffset2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)sizeOffset1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)lobbyOffset2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)lobbyOffset1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -102,90 +102,6 @@
             offsetPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             offsetPanel.Size = new Size(253, 314);
             offsetPanel.TabIndex = 0;
-            // 
-            // lobbyOffset1
-            // 
-            lobbyOffset1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            lobbyOffset1.Increment = new decimal(new int[] { 4, 0, 0, 0 });
-            lobbyOffset1.Location = new Point(129, 42);
-            lobbyOffset1.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            lobbyOffset1.Name = "lobbyOffset1";
-            lobbyOffset1.Size = new Size(111, 23);
-            lobbyOffset1.TabIndex = 1;
-            lobbyOffset1.Tag = 0;
-            lobbyOffset1.ValueChanged += OnOffsetEdit;
-            // 
-            // lobbyOffset2
-            // 
-            lobbyOffset2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            lobbyOffset2.Increment = new decimal(new int[] { 4, 0, 0, 0 });
-            lobbyOffset2.Location = new Point(129, 71);
-            lobbyOffset2.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            lobbyOffset2.Name = "lobbyOffset2";
-            lobbyOffset2.Size = new Size(111, 23);
-            lobbyOffset2.TabIndex = 1;
-            lobbyOffset2.Tag = 0;
-            lobbyOffset2.ValueChanged += OnOffsetEdit;
-            // 
-            // sizeOffset1
-            // 
-            sizeOffset1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            sizeOffset1.Increment = new decimal(new int[] { 4, 0, 0, 0 });
-            sizeOffset1.Location = new Point(129, 100);
-            sizeOffset1.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            sizeOffset1.Name = "sizeOffset1";
-            sizeOffset1.Size = new Size(111, 23);
-            sizeOffset1.TabIndex = 1;
-            sizeOffset1.Tag = 0;
-            sizeOffset1.ValueChanged += OnOffsetEdit;
-            // 
-            // sizeOffset2
-            // 
-            sizeOffset2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            sizeOffset2.Increment = new decimal(new int[] { 4, 0, 0, 0 });
-            sizeOffset2.Location = new Point(129, 129);
-            sizeOffset2.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            sizeOffset2.Name = "sizeOffset2";
-            sizeOffset2.Size = new Size(111, 23);
-            sizeOffset2.TabIndex = 1;
-            sizeOffset2.Tag = 0;
-            sizeOffset2.ValueChanged += OnOffsetEdit;
-            // 
-            // sizeCountOffset
-            // 
-            sizeCountOffset.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            sizeCountOffset.Increment = new decimal(new int[] { 4, 0, 0, 0 });
-            sizeCountOffset.Location = new Point(129, 158);
-            sizeCountOffset.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            sizeCountOffset.Name = "sizeCountOffset";
-            sizeCountOffset.Size = new Size(111, 23);
-            sizeCountOffset.TabIndex = 1;
-            sizeCountOffset.Tag = 0;
-            sizeCountOffset.ValueChanged += OnOffsetEdit;
-            // 
-            // sizeStringOffset
-            // 
-            sizeStringOffset.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            sizeStringOffset.Increment = new decimal(new int[] { 4, 0, 0, 0 });
-            sizeStringOffset.Location = new Point(129, 187);
-            sizeStringOffset.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            sizeStringOffset.Name = "sizeStringOffset";
-            sizeStringOffset.Size = new Size(111, 23);
-            sizeStringOffset.TabIndex = 1;
-            sizeStringOffset.Tag = 0;
-            sizeStringOffset.ValueChanged += OnOffsetEdit;
-            // 
-            // shapeOffset
-            // 
-            shapeOffset.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            shapeOffset.Increment = new decimal(new int[] { 4, 0, 0, 0 });
-            shapeOffset.Location = new Point(129, 216);
-            shapeOffset.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
-            shapeOffset.Name = "shapeOffset";
-            shapeOffset.Size = new Size(111, 23);
-            shapeOffset.TabIndex = 1;
-            shapeOffset.Tag = 0;
-            shapeOffset.ValueChanged += OnOffsetEdit;
             // 
             // overflowOffsetDesc
             // 
@@ -301,6 +217,90 @@
             shapeStringOffset.Tag = 0;
             shapeStringOffset.ValueChanged += OnOffsetEdit;
             // 
+            // shapeOffset
+            // 
+            shapeOffset.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            shapeOffset.Increment = new decimal(new int[] { 4, 0, 0, 0 });
+            shapeOffset.Location = new Point(129, 216);
+            shapeOffset.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            shapeOffset.Name = "shapeOffset";
+            shapeOffset.Size = new Size(111, 23);
+            shapeOffset.TabIndex = 1;
+            shapeOffset.Tag = 0;
+            shapeOffset.ValueChanged += OnOffsetEdit;
+            // 
+            // sizeStringOffset
+            // 
+            sizeStringOffset.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            sizeStringOffset.Increment = new decimal(new int[] { 4, 0, 0, 0 });
+            sizeStringOffset.Location = new Point(129, 187);
+            sizeStringOffset.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            sizeStringOffset.Name = "sizeStringOffset";
+            sizeStringOffset.Size = new Size(111, 23);
+            sizeStringOffset.TabIndex = 1;
+            sizeStringOffset.Tag = 0;
+            sizeStringOffset.ValueChanged += OnOffsetEdit;
+            // 
+            // sizeCountOffset
+            // 
+            sizeCountOffset.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            sizeCountOffset.Increment = new decimal(new int[] { 4, 0, 0, 0 });
+            sizeCountOffset.Location = new Point(129, 158);
+            sizeCountOffset.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            sizeCountOffset.Name = "sizeCountOffset";
+            sizeCountOffset.Size = new Size(111, 23);
+            sizeCountOffset.TabIndex = 1;
+            sizeCountOffset.Tag = 0;
+            sizeCountOffset.ValueChanged += OnOffsetEdit;
+            // 
+            // sizeOffset2
+            // 
+            sizeOffset2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            sizeOffset2.Increment = new decimal(new int[] { 4, 0, 0, 0 });
+            sizeOffset2.Location = new Point(129, 129);
+            sizeOffset2.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            sizeOffset2.Name = "sizeOffset2";
+            sizeOffset2.Size = new Size(111, 23);
+            sizeOffset2.TabIndex = 1;
+            sizeOffset2.Tag = 0;
+            sizeOffset2.ValueChanged += OnOffsetEdit;
+            // 
+            // sizeOffset1
+            // 
+            sizeOffset1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            sizeOffset1.Increment = new decimal(new int[] { 4, 0, 0, 0 });
+            sizeOffset1.Location = new Point(129, 100);
+            sizeOffset1.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            sizeOffset1.Name = "sizeOffset1";
+            sizeOffset1.Size = new Size(111, 23);
+            sizeOffset1.TabIndex = 1;
+            sizeOffset1.Tag = 0;
+            sizeOffset1.ValueChanged += OnOffsetEdit;
+            // 
+            // lobbyOffset2
+            // 
+            lobbyOffset2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            lobbyOffset2.Increment = new decimal(new int[] { 4, 0, 0, 0 });
+            lobbyOffset2.Location = new Point(129, 71);
+            lobbyOffset2.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            lobbyOffset2.Name = "lobbyOffset2";
+            lobbyOffset2.Size = new Size(111, 23);
+            lobbyOffset2.TabIndex = 1;
+            lobbyOffset2.Tag = 0;
+            lobbyOffset2.ValueChanged += OnOffsetEdit;
+            // 
+            // lobbyOffset1
+            // 
+            lobbyOffset1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            lobbyOffset1.Increment = new decimal(new int[] { 4, 0, 0, 0 });
+            lobbyOffset1.Location = new Point(129, 42);
+            lobbyOffset1.Maximum = new decimal(new int[] { int.MaxValue, 0, 0, 0 });
+            lobbyOffset1.Name = "lobbyOffset1";
+            lobbyOffset1.Size = new Size(111, 23);
+            lobbyOffset1.TabIndex = 1;
+            lobbyOffset1.Tag = 0;
+            lobbyOffset1.ValueChanged += OnOffsetEdit;
+            // 
             // panel1
             // 
             panel1.Controls.Add(OffsetWarn);
@@ -331,15 +331,15 @@
             Text = "Offset Setter";
             offsetPanel.ResumeLayout(false);
             offsetPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)lobbyOffset1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)lobbyOffset2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)sizeOffset1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)sizeOffset2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)sizeCountOffset).EndInit();
-            ((System.ComponentModel.ISupportInitialize)sizeStringOffset).EndInit();
-            ((System.ComponentModel.ISupportInitialize)shapeOffset).EndInit();
             ((System.ComponentModel.ISupportInitialize)overflowOffset).EndInit();
             ((System.ComponentModel.ISupportInitialize)shapeStringOffset).EndInit();
+            ((System.ComponentModel.ISupportInitialize)shapeOffset).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sizeStringOffset).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sizeCountOffset).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sizeOffset2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)sizeOffset1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)lobbyOffset2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)lobbyOffset1).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);
         }

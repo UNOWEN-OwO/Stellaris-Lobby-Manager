@@ -539,12 +539,16 @@ namespace Stellaris_Lobby_Manager
             {
                 overflowRestore = MemoryHelper.ReadUnmanaged(stellarisProcess, gameBase + Properties.Settings.Default.overflowOffset, 5);
 
-                // in case program is closed before overflow is restored
-                if (overflowRestore.SequenceEqual(new byte[] { 0x90, 0x90, 0x90, 0x90, 0x90 }))
+                // it must be a jump instruction
+                if (overflowRestore[0] == 0xE8)
                 {
-                    overflowRestore = new byte[] { 0xE8, 0xC5, 0x00, 0x00, 0x00 };
+                    // in case program is closed before overflow is restored
+                    if (overflowRestore.SequenceEqual(new byte[] { 0x90, 0x90, 0x90, 0x90, 0x90 }))
+                    {
+                        overflowRestore = new byte[] { 0xE8, (byte)Properties.Settings.Default.overflowJump, 0x00, 0x00, 0x00 };
+                    }
+                    MemoryHelper.WriteUnmanaged(stellarisProcess, gameBase + Properties.Settings.Default.overflowOffset, new byte[] { 0x90, 0x90, 0x90, 0x90, 0x90 });
                 }
-                MemoryHelper.WriteUnmanaged(stellarisProcess, gameBase + Properties.Settings.Default.overflowOffset, new byte[] { 0x90, 0x90, 0x90, 0x90, 0x90 });
             }
             else if (overflowRestore != null)
             {

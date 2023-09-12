@@ -1,17 +1,23 @@
 {
 	"1692794684": {
 		"lobbyOffset1": 41331224,
+		"lobbyOffset2": 2248,
 		"sizeOffset1": 42504280,
-		"overflowOffset": 1518374
+		"overflowOffset": 1518374,
+		"overflowJump": 197
 	},
 	"1686556435": {
 		"lobbyOffset1": 41362280,
+		"lobbyOffset2": 2248,
 		"sizeOffset1": 42535000,
-		"overflowOffset": 1515366
+		"overflowOffset": 1515366,
+		"overflowJump": 197
 	},
-	"1685184866": {
-		"lobbyOffset1": 41356808,
-		"sizeOffset1": 42529496,
-		"overflowOffset": 1513206
+	"1693905983": {
+		"lobbyOffset1": 41335544,
+		"lobbyOffset2": 2304,
+		"sizeOffset1": 42508600,
+		"overflowOffset": 1514601,
+		"overflowJump": 194
 	}
 }

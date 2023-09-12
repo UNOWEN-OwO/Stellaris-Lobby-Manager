@@ -12,7 +12,7 @@ namespace Stellaris_Lobby_Manager.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.6.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.7.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -61,7 +61,7 @@ namespace Stellaris_Lobby_Manager.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("41362280")]
+        [global::System.Configuration.DefaultSettingValueAttribute("41335544")]
         public int lobbyOffset1 {
             get {
                 return ((int)(this["lobbyOffset1"]));
@@ -73,7 +73,7 @@ namespace Stellaris_Lobby_Manager.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2248")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2304")]
         public int lobbyOffset2 {
             get {
                 return ((int)(this["lobbyOffset2"]));
@@ -97,7 +97,7 @@ namespace Stellaris_Lobby_Manager.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("42535000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("42508600")]
         public int sizeOffset1 {
             get {
                 return ((int)(this["sizeOffset1"]));
@@ -169,7 +169,7 @@ namespace Stellaris_Lobby_Manager.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1515366")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1514601")]
         public int overflowOffset {
             get {
                 return ((int)(this["overflowOffset"]));
@@ -188,6 +188,18 @@ namespace Stellaris_Lobby_Manager.Properties {
             }
             set {
                 this["canOverflow"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("194")]
+        public int overflowJump {
+            get {
+                return ((int)(this["overflowJump"]));
+            }
+            set {
+                this["overflowJump"] = value;
             }
         }
     }
